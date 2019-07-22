@@ -1,1 +1,1 @@
-export {createHtml} from './html-creator';
+export {createApp} from './app-factory';

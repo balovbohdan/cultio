@@ -1,32 +1,31 @@
 import * as React from 'react';
-import {ApolloClient} from 'apollo-client';
-import * as ReactDOMServer from 'react-dom/server';
 
-import {Html} from './Html';
-import {Content} from './Content';
-
-export type Props = {
-    location:string;
+type Props = {
+    content:string;
     devMode:boolean;
-    client:ApolloClient<any>;
-    context:{[key:string]:any};
+    state:{[key:string]:any};
 };
 
-export const App = (props:Props) => {
-    const state = props.client.extract();
-    const content = createContentStr(props);
+export const App = ({state, content, devMode}:Props) =>
+    <html>
+        <body>
+            <Content content={content}/>
+            <HotReloadScript devMode={devMode}/>
+            <ApolloState state={state}/>
+        </body>
+    </html>;
 
-    return <Html
-        state={state}
-        content={content}
-        devMode={props.devMode}/>;
-};
+const Content = ({content:__html}) =>
+    <div id='app' dangerouslySetInnerHTML={{ __html }}/>;
 
-const createContentStr = ({context, client, location}:Props) => {
-    const content = <Content
-        client={client}
-        context={context}
-        location={location}/>;
+const HotReloadScript = ({devMode}) =>
+    devMode
+        ? <script src='reload/reload.js'/>
+        : null;
 
-    return ReactDOMServer.renderToString(content);
+const ApolloState = ({state}) => {
+    const stateSerialized = JSON.stringify(state).replace(/</g, '\\u003c');
+    const __html = `window.__APOLLO_STATE__ = ${stateSerialized};`;
+
+    return <script dangerouslySetInnerHTML={{ __html }}/>;
 };

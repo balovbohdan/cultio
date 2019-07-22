@@ -1,0 +1,1 @@
+export {GqlQuery} from './GqlQuery';

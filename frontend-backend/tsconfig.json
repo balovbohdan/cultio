@@ -13,7 +13,9 @@
 
     "paths": {
       "@lib/*": ["lib/*"],
-      "@routes/*": ["routes/*"]
+      "@routes": ["routes"],
+      "@routes/*": ["routes/*"],
+      "@components/*": ["components/*"]
     },
 
     "jsx": "react",
