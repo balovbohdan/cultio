@@ -1,3 +1,4 @@
+import '@css/index.css';
 import * as React from 'react';
 
 type Props = {

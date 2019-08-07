@@ -2,7 +2,6 @@ import * as path from 'path';
 import * as watch from 'watch';
 import * as reload from 'reload';
 import * as Express from 'express';
-import {StaticRouter} from 'react-router';
 
 import {applyEndpoints} from './utils';
 
@@ -13,11 +12,20 @@ type Props = {
 export default (props:Props) => {
     const app = new Express();
 
+    useStatic(app);
     doApplyEndpoints(app, props);
     initHotReload(app, props);
 
     return app;
 };
+
+const useStatic = app =>
+    app.use('/assets/fonts', (req, res) => {
+        const fileName = req.originalUrl.split('/').pop();
+        const file = path.resolve(__dirname, '../../assets/fonts/', fileName);
+
+        res.sendFile(file);
+    });
 
 const doApplyEndpoints = (app, {devMode}:Props) =>
     applyEndpoints(app, { devMode });

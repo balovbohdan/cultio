@@ -1,6 +1,5 @@
 import * as React from 'react';
-import *as fetch from 'node-fetch';
-import {StaticRouter} from 'react-router';
+import * as fetch from 'node-fetch';
 
 import {ApolloClient} from 'apollo-client';
 import {createHttpLink} from 'apollo-link-http';
@@ -42,5 +41,5 @@ const createApolloClient = ({req}) =>
 export const root:Endpoint = {
     method: 'use',
     createListener,
-    condition: /^\/(?!reload).*/
+    condition: /^\/(?!reload|assets).*/
 };

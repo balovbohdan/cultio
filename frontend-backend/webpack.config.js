@@ -60,10 +60,12 @@ module.exports = {
                 loader: 'ts-loader'
             },
             {
-                loader: 'file-loader',
-                test: /\.(woff(2)?|ttf|eot|svg)$/,
+                loader: 'url-loader',
+                test: /\.woff2?$/,
                 options: {
-                    emitFile: false
+                    name: c.devMode
+                        ? 'assets/fonts/[name].[ext]'
+                        : 'assets/fonts/[name]-[hash].[ext]'
                 }
             }
         ]
