@@ -1,22 +1,50 @@
 import * as React from 'react';
-import * as ReactDOMServer from 'react-dom/server';
+import {renderToStaticMarkup} from 'react-dom/server';
+import {collectContext, collectInitial} from 'node-style-loader/collect'
 
-import {createHtml, Props} from './html-factory';
+import {createBody, Props} from './body-factory';
+
+type HtmlFactoryProps = {
+    body:string;
+    initialStyle:string;
+    contextStyle:string;
+};
 
 export const createApp = async (props:Props) => {
-    const html = await doCreateHtml(props);
+    const body = await doCreateBody(props);
 
-    return createStr(html);
+    return createStr(body);
 };
 
-const createStr = app => {
-    const appStr = ReactDOMServer.renderToStaticMarkup(app);
+const createStr = body => {
+    const initialStyle = collectInitial();
 
-    return `<!doctype html>\n${appStr}`;
+    const [contextStyle, bodyStr] = collectContext(
+        () => renderToStaticMarkup(body)
+    );
+
+    return createHtml({
+        initialStyle,
+        contextStyle,
+        body: bodyStr
+    });
 };
 
-const doCreateHtml = ({client, context, devMode, location}:Props) =>
-    createHtml({
+const createHtml = ({body, initialStyle, contextStyle}:HtmlFactoryProps) =>
+    `
+        <!doctype html>
+        <html>
+            <head>
+                <meta charset='utf-8'>
+                ${initialStyle}
+                ${contextStyle}
+            </head>
+            ${body}
+        </html>
+    `;
+
+const doCreateBody = ({client, context, devMode, location}:Props) =>
+    createBody({
         client,
         devMode,
         context,

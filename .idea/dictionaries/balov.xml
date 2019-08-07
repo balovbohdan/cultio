@@ -1,8 +1,13 @@
 <component name="ProjectDictionaryState">
   <dictionary name="balov">
     <words>
+      <w>autoprefixer</w>
+      <w>cssnano</w>
       <w>dirname</w>
+      <w>ident</w>
       <w>inmemory</w>
+      <w>interop</w>
+      <w>postcss</w>
       <w>tsconfig</w>
     </words>
   </dictionary>

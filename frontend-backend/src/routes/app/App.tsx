@@ -7,13 +7,11 @@ type Props = {
 };
 
 export const App = ({state, content, devMode}:Props) =>
-    <html>
-        <body>
-            <Content content={content}/>
-            <HotReloadScript devMode={devMode}/>
-            <ApolloState state={state}/>
-        </body>
-    </html>;
+    <body>
+        <Content content={content}/>
+        <HotReloadScript devMode={devMode}/>
+        <ApolloState state={state}/>
+    </body>;
 
 const Content = ({content:__html}) =>
     <div id='app' dangerouslySetInnerHTML={{ __html }}/>;
