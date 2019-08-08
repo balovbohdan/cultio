@@ -2,42 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="197f21c0-3f71-4b14-9ded-1fd033fce027" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/frontend-backend/src/assets/fonts/roboto-latin-100.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend-backend/src/assets/fonts/roboto-latin-100.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend-backend/src/assets/fonts/roboto-latin-100italic.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend-backend/src/assets/fonts/roboto-latin-100italic.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend-backend/src/assets/fonts/roboto-latin-300.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend-backend/src/assets/fonts/roboto-latin-300.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend-backend/src/assets/fonts/roboto-latin-300italic.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend-backend/src/assets/fonts/roboto-latin-300italic.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend-backend/src/assets/fonts/roboto-latin-400.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend-backend/src/assets/fonts/roboto-latin-400.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend-backend/src/assets/fonts/roboto-latin-400italic.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend-backend/src/assets/fonts/roboto-latin-400italic.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend-backend/src/assets/fonts/roboto-latin-500.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend-backend/src/assets/fonts/roboto-latin-500.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend-backend/src/assets/fonts/roboto-latin-500italic.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend-backend/src/assets/fonts/roboto-latin-500italic.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend-backend/src/assets/fonts/roboto-latin-700.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend-backend/src/assets/fonts/roboto-latin-700.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend-backend/src/assets/fonts/roboto-latin-700italic.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend-backend/src/assets/fonts/roboto-latin-700italic.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend-backend/src/assets/fonts/roboto-latin-900.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend-backend/src/assets/fonts/roboto-latin-900.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend-backend/src/assets/fonts/roboto-latin-900italic.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend-backend/src/assets/fonts/roboto-latin-900italic.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend-backend/src/css/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend-backend/src/css/roboto-fonts.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend-backend/src/components/app/Tree.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend-backend/src/theme.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend-backend/dist/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend-backend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend-backend/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend-backend/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend-backend/src/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend-backend/src/lib/server-starter/endpoints/root.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend-backend/src/lib/server-starter/endpoints/root.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend-backend/src/lib/server-starter/factory.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend-backend/src/lib/server-starter/factory.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend-backend/src/routes/app/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend-backend/src/routes/app/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend-backend/src/routes/app/Tree.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend-backend/src/routes/app/Tree.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend-backend/src/lib/server-starter/endpoints/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend-backend/src/endpoints/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend-backend/src/lib/server-starter/endpoints/root.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend-backend/src/endpoints/root.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend-backend/src/lib/server-starter/types.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend-backend/src/endpoints/types.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend-backend/src/lib/server-starter/utils/endpoints-applier.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend-backend/src/lib/server-starter/utils/endpoints-applier.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend-backend/src/routes/app/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend-backend/src/components/app/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend-backend/src/routes/app/RouterSwitch.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend-backend/src/components/app/RouterSwitch.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend-backend/src/routes/app/Tree.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend-backend/src/routes/app/utils/app-factory.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend-backend/src/components/app/utils/app-factory.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend-backend/src/routes/app/utils/body-factory.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend-backend/src/components/app/utils/body-factory.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend-backend/src/routes/app/utils/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend-backend/src/components/app/utils/index.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend-backend/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend-backend/tsconfig.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend-backend/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend-backend/webpack.config.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -65,17 +44,17 @@
         <counts>
           <entry key="babelrc" value="1" />
           <entry key="command" value="2" />
-          <entry key="css" value="14" />
+          <entry key="css" value="15" />
           <entry key="gitignore" value="1" />
           <entry key="hs" value="1" />
           <entry key="htm" value="1" />
           <entry key="html" value="6" />
-          <entry key="js" value="91" />
-          <entry key="json" value="68" />
+          <entry key="js" value="93" />
+          <entry key="json" value="72" />
           <entry key="sh" value="3" />
           <entry key="start-dev" value="1" />
-          <entry key="ts" value="58" />
-          <entry key="tsx" value="45" />
+          <entry key="ts" value="68" />
+          <entry key="tsx" value="62" />
           <entry key="tws" value="1" />
           <entry key="watch" value="1" />
         </counts>
@@ -83,15 +62,15 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Bash" value="3" />
-          <entry key="CSS" value="14" />
+          <entry key="CSS" value="15" />
           <entry key="HTML" value="7" />
           <entry key="Haskell" value="1" />
           <entry key="JSON" value="56" />
-          <entry key="JavaScript" value="91" />
+          <entry key="JavaScript" value="93" />
           <entry key="PLAIN_TEXT" value="6" />
-          <entry key="TypeScript" value="58" />
-          <entry key="TypeScript JSX" value="45" />
-          <entry key="tsconfig" value="13" />
+          <entry key="TypeScript" value="68" />
+          <entry key="TypeScript JSX" value="62" />
+          <entry key="tsconfig" value="17" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -101,11 +80,11 @@
           <entry key="hs" value="7" />
           <entry key="htm" value="2" />
           <entry key="html" value="22" />
-          <entry key="js" value="5688" />
-          <entry key="json" value="1664" />
+          <entry key="js" value="5692" />
+          <entry key="json" value="1705" />
           <entry key="sh" value="281" />
-          <entry key="ts" value="1894" />
-          <entry key="tsx" value="6499" />
+          <entry key="ts" value="1925" />
+          <entry key="tsx" value="7210" />
           <entry key="watch" value="22" />
         </counts>
       </usages-collector>
@@ -113,14 +92,14 @@
         <counts>
           <entry key="Bash" value="281" />
           <entry key="CSS" value="93" />
-          <entry key="HTML" value="41" />
+          <entry key="HTML" value="49" />
           <entry key="Haskell" value="7" />
           <entry key="JSON" value="1450" />
-          <entry key="JavaScript" value="5688" />
+          <entry key="JavaScript" value="5692" />
           <entry key="PLAIN_TEXT" value="44" />
-          <entry key="TypeScript" value="1894" />
-          <entry key="TypeScript JSX" value="6482" />
-          <entry key="tsconfig" value="214" />
+          <entry key="TypeScript" value="1925" />
+          <entry key="TypeScript JSX" value="7185" />
+          <entry key="tsconfig" value="255" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts">
@@ -132,20 +111,76 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/frontend-backend/webpack.config.js">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/frontend-backend/src/components/app/Tree.tsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="202">
-              <caret line="39" column="31" selection-start-line="39" selection-start-column="31" selection-end-line="39" selection-end-column="31" />
+            <state relative-caret-position="23">
+              <caret line="1" selection-start-line="1" selection-end-line="1" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/frontend-backend/src/routes/app/Tree.tsx">
+        <entry file="file://$PROJECT_DIR$/frontend-backend/src/endpoints/types.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="441">
-              <caret line="25" column="21" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="21" />
+            <state relative-caret-position="69">
+              <caret line="3" column="58" selection-start-line="3" selection-start-column="58" selection-end-line="3" selection-end-column="58" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/frontend-backend/src/endpoints/root.tsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="207">
+              <caret line="9" selection-start-line="9" selection-end-line="9" />
+              <folding>
+                <element signature="e#0#31#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/frontend-backend/src/endpoints/index.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="26" selection-start-column="26" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/frontend-backend/src/lib/server-starter/factory.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="212">
+              <caret line="26" column="25" selection-start-line="26" selection-start-column="25" selection-end-line="26" selection-end-column="25" />
+              <folding>
+                <element signature="e#0#29#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/frontend-backend/src/lib/server-starter/index.ts">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/frontend-backend/src/lib/server-starter/starter.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="184">
+              <caret line="8" column="20" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/frontend-backend/src/routes/index.tsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="460">
+              <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
               <folding>
                 <element signature="e#0#31#0" expanded="true" />
               </folding>
@@ -157,9 +192,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>apollocli</find>
-      <find>new ApolloClient</find>
-      <find>hello from</find>
       <find>tree</find>
       <find>new apo</find>
       <find>ClientOp</find>
@@ -187,6 +219,9 @@
       <find>mater</find>
       <find>@fonts</find>
       <find>./files</find>
+      <find>ServerStyleSheets</find>
+      <find>ThemePro</find>
+      <find>ThemeProvider</find>
     </findStrings>
     <replaceStrings>
       <replace>const</replace>
@@ -210,9 +245,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/frontend-backend/public/index.html" />
-        <option value="$PROJECT_DIR$/frontend-backend/public/index.js" />
-        <option value="$PROJECT_DIR$/frontend-backend/scripts/start.hs" />
         <option value="$PROJECT_DIR$/frontend-backend/scripts/.watch" />
         <option value="$PROJECT_DIR$/frontend-backend/scripts/start.sh" />
         <option value="$PROJECT_DIR$/frontend-backend/index.js" />
@@ -230,7 +262,6 @@
         <option value="$PROJECT_DIR$/frontend-backend/config.js" />
         <option value="$PROJECT_DIR$/frontend-backend/src/routes/app/index.ts" />
         <option value="$PROJECT_DIR$/frontend-backend/src/lib/server-starter/types.ts" />
-        <option value="$PROJECT_DIR$/frontend-backend/src/lib/server-starter/utils/endpoints-applier.ts" />
         <option value="$PROJECT_DIR$/frontend-backend/src/routes/app/Html.tsx" />
         <option value="$PROJECT_DIR$/frontend-backend/src/routes/app/utils/html-creator.ts" />
         <option value="$PROJECT_DIR$/backend/index.js" />
@@ -247,20 +278,24 @@
         <option value="$PROJECT_DIR$/frontend-backend/node_modules/@types/style-loader/index.d.ts" />
         <option value="$PROJECT_DIR$/frontend-backend/postcss.config.js" />
         <option value="$PROJECT_DIR$/frontend-backend/src/components/Books.tsx" />
-        <option value="$PROJECT_DIR$/frontend-backend/src/routes/app/utils/body-factory.tsx" />
-        <option value="$PROJECT_DIR$/frontend-backend/src/routes/app/utils/app-factory.tsx" />
         <option value="$PROJECT_DIR$/frontend-backend/src/index.tsx" />
         <option value="$PROJECT_DIR$/frontend-backend/src/components/Books.css" />
         <option value="$PROJECT_DIR$/frontend-backend/src/css/index.css" />
         <option value="$PROJECT_DIR$/frontend-backend/dist/index.js" />
-        <option value="$PROJECT_DIR$/frontend-backend/tsconfig.json" />
-        <option value="$PROJECT_DIR$/frontend-backend/src/routes/app/App.tsx" />
         <option value="$PROJECT_DIR$/frontend-backend/src/css/roboto-fonts.css" />
         <option value="$PROJECT_DIR$/frontend-backend/package.json" />
-        <option value="$PROJECT_DIR$/frontend-backend/src/lib/server-starter/endpoints/root.tsx" />
         <option value="$PROJECT_DIR$/frontend-backend/src/lib/server-starter/factory.ts" />
-        <option value="$PROJECT_DIR$/frontend-backend/src/routes/app/Tree.tsx" />
         <option value="$PROJECT_DIR$/frontend-backend/webpack.config.js" />
+        <option value="$PROJECT_DIR$/frontend-backend/src/theme.js" />
+        <option value="$PROJECT_DIR$/frontend-backend/src/theme.ts" />
+        <option value="$PROJECT_DIR$/frontend-backend/src/routes/app/App.tsx" />
+        <option value="$PROJECT_DIR$/frontend-backend/src/routes/app/utils/body-factory.tsx" />
+        <option value="$PROJECT_DIR$/frontend-backend/src/routes/app/utils/app-factory.tsx" />
+        <option value="$PROJECT_DIR$/frontend-backend/src/routes/app/Tree.tsx" />
+        <option value="$PROJECT_DIR$/frontend-backend/src/lib/server-starter/endpoints/root.tsx" />
+        <option value="$PROJECT_DIR$/frontend-backend/src/endpoints/root.tsx" />
+        <option value="$PROJECT_DIR$/frontend-backend/src/lib/server-starter/utils/endpoints-applier.ts" />
+        <option value="$PROJECT_DIR$/frontend-backend/tsconfig.json" />
       </list>
     </option>
   </component>
@@ -366,11 +401,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/frontend-backend/src/endpoints" />
+      <recent name="$PROJECT_DIR$/frontend-backend/src" />
+      <recent name="$PROJECT_DIR$/frontend-backend/src/components" />
       <recent name="$PROJECT_DIR$/frontend-backend/src/assets/fonts" />
       <recent name="$PROJECT_DIR$/frontend-backend/src/assets/fonts/typeface-roboto" />
-      <recent name="$PROJECT_DIR$/frontend-backend/src/routes/app/utils" />
-      <recent name="$PROJECT_DIR$/frontend-backend/src/routes/app" />
-      <recent name="$PROJECT_DIR$/frontend-backend/dist" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/frontend-backend/src/assets/fonts" />
@@ -475,12 +510,12 @@
       <workItem from="1564659661626" duration="59000" />
       <workItem from="1564659936101" duration="9673000" />
       <workItem from="1564735768133" duration="186000" />
-      <workItem from="1565197947316" duration="8740000" />
+      <workItem from="1565197947316" duration="12219000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="59463000" />
+    <option name="totallyTimeSpent" value="62942000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="797" extended-state="0" />
@@ -544,34 +579,6 @@
     </ignored-roots>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/frontend-backend/src/lib/server-starter/utils/index.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="51" lean-forward="true" selection-start-column="51" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend-backend/src/lib/server-starter/index.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend-backend/config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend-backend/src/lib/server-starter/types.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="3" column="58" selection-start-line="3" selection-start-column="58" selection-end-line="3" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/backend/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="411">
@@ -594,7 +601,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/frontend-backend/src/routes/app/index.ts" />
-    <entry file="file://$PROJECT_DIR$/frontend-backend/src/routes/app/utils/index.ts">
+    <entry file="file://$PROJECT_DIR$/frontend-backend/src/components/app/utils/index.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="40" lean-forward="true" selection-start-column="40" selection-end-column="40" />
@@ -622,13 +629,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="242">
           <caret line="84" column="17" selection-start-line="84" selection-start-column="17" selection-end-line="84" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend-backend/src/routes/app/RouterSwitch.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="21" column="11" lean-forward="true" selection-start-line="21" selection-start-column="11" selection-end-line="21" selection-end-column="11" />
         </state>
       </provider>
     </entry>
@@ -679,23 +679,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/frontend-backend/src/routes/app/utils/app-factory.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="782">
-          <caret line="34" column="23" lean-forward="true" selection-start-line="34" selection-start-column="23" selection-end-line="34" selection-end-column="23" />
-          <folding>
-            <element signature="e#0#31#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend-backend/src/routes/app/utils/body-factory.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="15" column="23" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/frontend-backend/src/components/Books.tsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="115">
@@ -720,9 +703,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/frontend-backend/src/components/Books.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/frontend-backend/global.d.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -740,41 +720,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/frontend-backend/src/lib/server-starter/starter.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="8" column="20" lean-forward="true" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend-backend/src/lib/server-starter/utils/endpoints-applier.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/frontend-backend/src/css/index.css">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="23" lean-forward="true" selection-start-column="23" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend-backend/src/routes/index.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-177">
-          <caret column="7" selection-start-column="7" selection-end-column="7" />
-          <folding>
-            <element signature="e#0#31#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend-backend/src/lib/server-starter/endpoints/index.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="26" selection-start-column="26" selection-end-column="26" />
         </state>
       </provider>
     </entry>
@@ -792,44 +741,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/frontend-backend/tsconfig.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="19" column="34" selection-start-line="19" selection-start-column="34" selection-end-line="19" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend-backend/src/routes/app/App.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="1" column="31" selection-start-line="1" selection-start-column="31" selection-end-line="1" selection-end-column="31" />
-          <folding>
-            <element signature="e#0#24#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/frontend-backend/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="395">
           <caret line="64" column="25" selection-start-line="64" selection-start-column="25" selection-end-line="64" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend-backend/src/lib/server-starter/endpoints/root.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="1" column="9" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend-backend/src/lib/server-starter/factory.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="449">
-          <caret line="26" column="25" selection-start-line="26" selection-start-column="25" selection-end-line="26" selection-end-column="25" />
-          <folding>
-            <element signature="e#0#29#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -840,20 +755,145 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/frontend-backend/src/routes/app/Tree.tsx">
+    <entry file="file://$PROJECT_DIR$/frontend-backend/src/components/app/RouterSwitch.tsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="441">
-          <caret line="25" column="21" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="21" />
+        <state relative-caret-position="391">
+          <caret line="21" column="11" lean-forward="true" selection-start-line="21" selection-start-column="11" selection-end-line="21" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend-backend/src/components/Books.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend-backend/webpack.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="644">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend-backend/src/theme.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="20" column="15" selection-start-line="20" selection-start-column="15" selection-end-line="20" selection-end-column="15" />
+          <folding>
+            <element signature="e#0#47#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend-backend/node_modules/@material-ui/styles/ThemeProvider/ThemeProvider.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" column="24" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend-backend/src/components/app/utils/body-factory.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="713">
+          <caret line="31" column="18" lean-forward="true" selection-start-line="31" selection-start-column="18" selection-end-line="31" selection-end-column="18" />
           <folding>
             <element signature="e#0#31#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/frontend-backend/webpack.config.js">
+    <entry file="file://$PROJECT_DIR$/frontend-backend/src/components/app/App.tsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="202">
-          <caret line="39" column="31" selection-start-line="39" selection-start-column="31" selection-end-line="39" selection-end-column="31" />
+        <state relative-caret-position="322">
+          <caret line="14" column="12" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
+          <folding>
+            <element signature="e#0#24#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend-backend/src/routes/index.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend-backend/src/components/app/utils/app-factory.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="943">
+          <caret line="41" column="40" selection-start-line="41" selection-start-column="40" selection-end-line="41" selection-end-column="40" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend-backend/src/components/app/Tree.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend-backend/src/endpoints/types.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" column="58" selection-start-line="3" selection-start-column="58" selection-end-line="3" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend-backend/src/endpoints/root.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend-backend/src/endpoints/index.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="26" selection-start-column="26" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend-backend/src/lib/server-starter/index.ts">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend-backend/src/lib/server-starter/starter.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" column="20" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend-backend/src/lib/server-starter/utils/endpoints-applier.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="16" column="2" selection-start-line="16" selection-start-column="2" selection-end-line="16" selection-end-column="2" />
+          <folding>
+            <element signature="e#0#48#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend-backend/tsconfig.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="21" column="17" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend-backend/src/lib/server-starter/factory.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="26" column="25" selection-start-line="26" selection-start-column="25" selection-end-line="26" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

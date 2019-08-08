@@ -13,11 +13,14 @@
     "allowSyntheticDefaultImports": true,
 
     "paths": {
+      "@root/*": ["./*"],
       "@css/*": ["css/*"],
       "@lib/*": ["lib/*"],
       "@routes": ["routes"],
       "@routes/*": ["routes/*"],
       "@fonts/*": ["assets/fonts/*"],
+      "@endpoints": ["endpoints"],
+      "@endpoints/*": ["endpoints/*"],
       "@components/*": ["components/*"]
     },
 

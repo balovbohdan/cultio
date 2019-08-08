@@ -1,11 +1,13 @@
 import * as React from 'react';
 import {renderToStaticMarkup} from 'react-dom/server';
-import {collectContext, collectInitial} from 'node-style-loader/collect'
+import {ServerStyleSheets} from '@material-ui/styles';
+import {collectContext, collectInitial} from 'node-style-loader/collect';
 
 import {createBody, Props} from './body-factory';
 
 type HtmlFactoryProps = {
     body:string;
+    muiStyle:string;
     initialStyle:string;
     contextStyle:string;
 };
@@ -18,24 +20,28 @@ export const createApp = async (props:Props) => {
 
 const createStr = body => {
     const initialStyle = collectInitial();
-
-    const [contextStyle, bodyStr] = collectContext(
-        () => renderToStaticMarkup(body)
-    );
+    const sheets = new ServerStyleSheets();
+    const bodyStr = renderToStaticMarkup(sheets.collect(body));
+    const muiStyle = sheets.toString();
+    const [contextStyle] = collectContext(() => bodyStr);
 
     return createHtml({
+        muiStyle,
         initialStyle,
         contextStyle,
         body: bodyStr
     });
 };
 
-const createHtml = ({body, initialStyle, contextStyle}:HtmlFactoryProps) =>
+const createHtml = ({body, muiStyle, initialStyle, contextStyle}:HtmlFactoryProps) =>
     `
         <!doctype html>
         <html>
             <head>
                 <meta charset='utf-8'>
+                <style id='mui-ssr-style' rel='stylesheet'>
+                    ${muiStyle}
+                </style>
                 ${initialStyle}
                 ${contextStyle}
             </head>

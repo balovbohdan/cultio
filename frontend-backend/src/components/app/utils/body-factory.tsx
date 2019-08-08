@@ -1,7 +1,6 @@
 import * as React from 'react';
 import {ApolloClient} from 'apollo-client';
 import {getDataFromTree} from 'react-apollo';
-import * as ReactDOMServer from 'react-dom/server';
 
 import {App} from '../App';
 import {Tree} from '../Tree';
@@ -15,15 +14,16 @@ export type Props = {
 
 export const createBody = async (props:Props) => {
     const state = props.client.extract();
-    const content = await createTreeStr(props);
+    const content = await createTree(props);
 
-    return <App
-        state={state}
-        content={content}
-        devMode={props.devMode}/>;
+    return (
+        <App state={state} devMode={props.devMode}>
+            {content}
+        </App>
+    );
 };
 
-const createTreeStr = async ({context, client, location}:Props) => {
+const createTree = async ({context, client, location}:Props) => {
     const tree = <Tree
         client={client}
         context={context}
@@ -31,5 +31,5 @@ const createTreeStr = async ({context, client, location}:Props) => {
 
     await getDataFromTree(tree);
 
-    return ReactDOMServer.renderToString(tree);
+    return tree;
 };

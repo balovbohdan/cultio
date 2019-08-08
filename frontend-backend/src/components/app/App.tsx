@@ -1,21 +1,18 @@
-import '@css/index.css';
+import '../../css/index.css';
 import * as React from 'react';
 
 type Props = {
-    content:string;
     devMode:boolean;
+    children:React.ReactNode;
     state:{[key:string]:any};
 };
 
-export const App = ({state, content, devMode}:Props) =>
+export const App = ({state, devMode,children}:Props) =>
     <body>
-        <Content content={content}/>
+        <div id='app'>{children}</div>
         <HotReloadScript devMode={devMode}/>
         <ApolloState state={state}/>
     </body>;
-
-const Content = ({content:__html}) =>
-    <div id='app' dangerouslySetInnerHTML={{ __html }}/>;
 
 const HotReloadScript = ({devMode}) =>
     devMode

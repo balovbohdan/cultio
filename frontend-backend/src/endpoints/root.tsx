@@ -5,8 +5,8 @@ import {ApolloClient} from 'apollo-client';
 import {createHttpLink} from 'apollo-link-http';
 import {InMemoryCache} from 'apollo-cache-inmemory';
 
-import {Endpoint, EndpointProps} from '../types';
-import {createApp} from '@routes/app/utils';
+import {Endpoint, EndpointProps} from './types';
+import {createApp} from '@components/app/utils';
 
 const createListener = (props:EndpointProps) =>
     async (req, res) => {

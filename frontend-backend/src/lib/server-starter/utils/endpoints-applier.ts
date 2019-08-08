@@ -1,5 +1,5 @@
-import * as endpoints from '../endpoints';
-import {Endpoint, EndpointProps} from '../types';
+import * as endpoints from '@endpoints';
+import {Endpoint, EndpointProps} from '@endpoints/types';
 
 export const applyEndpoints = (app, props:EndpointProps) => {
     for (let i in endpoints)
