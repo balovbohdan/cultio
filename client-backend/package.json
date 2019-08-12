@@ -5,6 +5,7 @@
   "main": "src/index.ts",
   "scripts": {
     "start-dev": "MODE=dev npm run do-start-dev",
+    "build": "webpack --config webpack.config.js",
     "build-server": "webpack --config webpack.config.server.js",
     "build-client": "webpack --config webpack.config.client.js",
     "watch": "webpack --config webpack.config.server.js --watch",

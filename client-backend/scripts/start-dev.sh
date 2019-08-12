@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
 
-test -e dist/index.js || npm run build-server && npm run build-client && npm run watch | npm run hot-reload
+test -e dist/index.js || npm run build && npm run watch | npm run hot-reload
