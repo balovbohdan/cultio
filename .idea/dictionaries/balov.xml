@@ -4,6 +4,7 @@
       <w>autoprefixer</w>
       <w>cssnano</w>
       <w>dirname</w>
+      <w>esnext</w>
       <w>ident</w>
       <w>inmemory</w>
       <w>interop</w>
