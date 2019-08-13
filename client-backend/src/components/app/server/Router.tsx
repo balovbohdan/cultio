@@ -11,6 +11,14 @@ type Props = {
 export const Router = ({location, context}:Props) =>
     <StaticRouter location={location} context={context}>
         <Switch>
-            {routes.map(route => <Route key={route.name} {...route.meta}/>)}
+            <Routes/>
         </Switch>
     </StaticRouter>;
+
+const Routes = () => {
+    const items = routes.map(route =>
+        <Route key={route.name} {...route.meta}/>
+    );
+
+    return <>{items}</>;
+};

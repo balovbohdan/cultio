@@ -2,24 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="197f21c0-3f71-4b14-9ded-1fd033fce027" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/client-backend/src/components/routes/home/Home.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client-backend/src/components/routes/home/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client-backend/src/components/routes/utils/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client-backend/src/components/routes/utils/security.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client-backend/src/endpoints/get-client-bundle.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client-backend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/client-backend/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client-backend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client-backend/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client-backend/src/components/app/client/utils/html-fetcher.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client-backend/src/components/app/client/utils/html-fetcher.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client-backend/src/components/app/server/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client-backend/src/components/app/server/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client-backend/src/components/app/server/RouterSwitch.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client-backend/src/components/app/server/RouterSwitch.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client-backend/src/components/app/server/Tree.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client-backend/src/components/app/server/Tree.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client-backend/src/endpoints/create-html.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client-backend/src/endpoints/create-html.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client-backend/src/endpoints/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client-backend/src/endpoints/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client-backend/src/lib/server-starter/factory.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client-backend/src/lib/server-starter/factory.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client-backend/src/routes/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client-backend/src/components/routes/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client-backend/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/client-backend/tsconfig.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client-backend/webpack.config.client.js" beforeDir="false" afterPath="$PROJECT_DIR$/client-backend/webpack.config.client.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client-backend/src/components/app/server/Router.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client-backend/src/components/app/server/Router.tsx" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -58,7 +41,7 @@
           <entry key="src" value="1" />
           <entry key="start-dev" value="1" />
           <entry key="ts" value="117" />
-          <entry key="tsx" value="113" />
+          <entry key="tsx" value="114" />
           <entry key="tws" value="1" />
           <entry key="watch" value="1" />
         </counts>
@@ -73,7 +56,7 @@
           <entry key="JavaScript" value="126" />
           <entry key="PLAIN_TEXT" value="8" />
           <entry key="TypeScript" value="117" />
-          <entry key="TypeScript JSX" value="113" />
+          <entry key="TypeScript JSX" value="114" />
           <entry key="tsconfig" value="25" />
         </counts>
       </usages-collector>
@@ -88,7 +71,7 @@
           <entry key="json" value="1926" />
           <entry key="sh" value="318" />
           <entry key="ts" value="4521" />
-          <entry key="tsx" value="10229" />
+          <entry key="tsx" value="10363" />
           <entry key="watch" value="22" />
         </counts>
       </usages-collector>
@@ -102,7 +85,7 @@
           <entry key="JavaScript" value="6368" />
           <entry key="PLAIN_TEXT" value="57" />
           <entry key="TypeScript" value="4521" />
-          <entry key="TypeScript JSX" value="10204" />
+          <entry key="TypeScript JSX" value="10338" />
           <entry key="tsconfig" value="282" />
         </counts>
       </usages-collector>
@@ -116,10 +99,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client-backend/src/components/routes/index.tsx">
+        <entry file="file://$PROJECT_DIR$/client-backend/src/components/routes/home/Home.tsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="19" column="9" lean-forward="true" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
+            <state relative-caret-position="115">
+              <caret line="5" column="14" lean-forward="true" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
               <folding>
                 <element signature="e#0#31#0" expanded="true" />
               </folding>
@@ -128,22 +111,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/client-backend/src/components/routes/home/Home.tsx">
+        <entry file="file://$PROJECT_DIR$/client-backend/src/components/app/server/Router.tsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="115">
-              <caret line="5" column="14" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
-              <folding>
-                <element signature="e#0#31#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client-backend/src/components/app/server/RouterSwitch.tsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="464">
-              <caret line="26" column="20" selection-start-line="26" selection-start-column="20" selection-end-line="26" selection-end-column="20" />
+            <state relative-caret-position="336">
+              <caret line="22" column="24" lean-forward="true" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
               <folding>
                 <element signature="e#0#31#0" expanded="true" />
               </folding>
@@ -210,7 +181,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/frontend-backend/scripts/start-dev.sh" />
         <option value="$PROJECT_DIR$/frontend-backend/tsconfig.clinent.json" />
         <option value="$PROJECT_DIR$/frontend-backend/tsconfig.server.json" />
         <option value="$PROJECT_DIR$/frontend-backend/webpack.config.server.js" />
@@ -245,7 +215,6 @@
         <option value="$PROJECT_DIR$/client-backend/src/components/routes/utils/lazy-creator.ts" />
         <option value="$PROJECT_DIR$/client-backend/src/components/routes/home/HomeLazy.tsx" />
         <option value="$PROJECT_DIR$/client-backend/src/components/routes/home/index.ts" />
-        <option value="$PROJECT_DIR$/client-backend/src/components/app/server/Tree.tsx" />
         <option value="$PROJECT_DIR$/client-backend/src/components/app/client/utils/html-fetcher.ts" />
         <option value="$PROJECT_DIR$/client-backend/src/components/routes/utils/location-validator.ts" />
         <option value="$PROJECT_DIR$/client-backend/src/components/routes/utils/security.ts" />
@@ -254,13 +223,15 @@
         <option value="$PROJECT_DIR$/client-backend/src/endpoints/index.ts" />
         <option value="$PROJECT_DIR$/client-backend/src/lib/server-starter/factory.ts" />
         <option value="$PROJECT_DIR$/client-backend/src/endpoints/get-client-bundle.ts" />
-        <option value="$PROJECT_DIR$/client-backend/src/components/app/server/RouterSwitch.tsx" />
         <option value="$PROJECT_DIR$/client-backend/webpack.config.client.js" />
         <option value="$PROJECT_DIR$/client-backend/src/components/routes/utils/lazy-creator.tsx" />
         <option value="$PROJECT_DIR$/client-backend/package.json" />
         <option value="$PROJECT_DIR$/client-backend/src/components/routes/utils/index.ts" />
         <option value="$PROJECT_DIR$/client-backend/src/components/routes/index.tsx" />
         <option value="$PROJECT_DIR$/client-backend/src/components/routes/home/Home.tsx" />
+        <option value="$PROJECT_DIR$/client-backend/src/components/app/server/RouterSwitch.tsx" />
+        <option value="$PROJECT_DIR$/client-backend/src/components/app/server/Tree.tsx" />
+        <option value="$PROJECT_DIR$/client-backend/src/components/app/server/Router.tsx" />
       </list>
     </option>
   </component>
@@ -336,6 +307,36 @@
               <item name="cultio" type="b2602c69:ProjectViewProjectNode" />
               <item name="cultio" type="462c0819:PsiDirectoryNode" />
               <item name="client-backend" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cultio" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cultio" type="462c0819:PsiDirectoryNode" />
+              <item name="client-backend" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cultio" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cultio" type="462c0819:PsiDirectoryNode" />
+              <item name="client-backend" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cultio" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cultio" type="462c0819:PsiDirectoryNode" />
+              <item name="client-backend" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cultio" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cultio" type="462c0819:PsiDirectoryNode" />
+              <item name="client-backend" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -472,12 +473,12 @@
       <workItem from="1565197947316" duration="12922000" />
       <workItem from="1565591712139" duration="15323000" />
       <workItem from="1565620127207" duration="2560000" />
-      <workItem from="1565684145913" duration="6832000" />
+      <workItem from="1565684145913" duration="7150000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="88360000" />
+    <option name="totallyTimeSpent" value="88678000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="797" extended-state="0" />
@@ -749,16 +750,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client-backend/src/components/app/server/Tree.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="349">
-          <caret line="19" column="15" selection-start-line="19" selection-start-column="15" selection-end-line="19" selection-end-column="15" />
-          <folding>
-            <element signature="e#0#31#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/client-backend/src/components/app/client/utils/html-fetcher.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="460">
@@ -817,16 +808,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client-backend/src/components/app/server/RouterSwitch.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="464">
-          <caret line="26" column="20" selection-start-line="26" selection-start-column="20" selection-end-line="26" selection-end-column="20" />
-          <folding>
-            <element signature="e#0#31#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/client-backend/node_modules/react-loadable/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="156">
@@ -878,10 +859,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/client-backend/src/components/app/server/Tree.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" column="32" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="32" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/client-backend/src/components/routes/home/Home.tsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="115">
-          <caret line="5" column="14" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
+          <caret line="5" column="14" lean-forward="true" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client-backend/src/components/app/server/Router.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="22" column="24" lean-forward="true" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
           <folding>
             <element signature="e#0#31#0" expanded="true" />
           </folding>
