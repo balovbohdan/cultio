@@ -16,10 +16,10 @@
       "@root/*": ["./*"],
       "@css/*": ["css/*"],
       "@lib/*": ["lib/*"],
-      "@routes": ["routes"],
       "@routes/*": ["routes/*"],
       "@endpoints": ["endpoints"],
       "@endpoints/*": ["endpoints/*"],
+      "@routes": ["components/routes"],
       "@fonts/*": ["../assets/fonts/*"],
       "@components/*": ["components/*"]
     },

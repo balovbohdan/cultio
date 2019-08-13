@@ -2,6 +2,7 @@ import * as path from 'path';
 import * as watch from 'watch';
 import * as reload from 'reload';
 import * as Express from 'express';
+import * as bodyParser from 'body-parser';
 
 import {applyEndpoints} from './utils';
 
@@ -12,29 +13,20 @@ type Props = {
 export default (props:Props) => {
     const app = new Express();
 
-    useStatic(app);
+    useBodyParser(app);
     doApplyEndpoints(app, props);
     initHotReload(app, props);
 
     return app;
 };
 
-const useStatic = app => {
-    app.use('/client', (req, res) => {
-        const fileName = extractFileName(req);
+const useBodyParser = app => {
+    app.use(bodyParser.json());
 
-        if (fileName === 'index.js') {
-            const file = path.resolve(__dirname, '../../../dist/client.js');
-
-            res.sendFile(file);
-        } else {
-            res.end();
-        }
-    });
+    app.use(bodyParser.urlencoded({
+        extended: true
+    }));
 };
-
-const extractFileName = req =>
-    req.originalUrl.split('/').pop();
 
 const doApplyEndpoints = (app, {devMode}:Props) =>
     applyEndpoints(app, { devMode });

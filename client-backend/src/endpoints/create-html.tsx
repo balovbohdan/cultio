@@ -7,27 +7,47 @@ import {InMemoryCache} from 'apollo-cache-inmemory';
 
 import {Endpoint, EndpointProps} from './types';
 import {createApp} from '@components/app/server/utils';
+import {validateLocation} from '@components/routes/utils/security';
 
 const createListener = (props:EndpointProps) =>
     async (req, res) => {
-        const data = await createRes(req, props);
+        const location = getLocation(req);
 
-        res.status(200);
-        res.send(data);
-        res.end();
+        if (!location)
+            return rejectIfInvalidLocation(req);
+
+        await resolve(req, res, location, props);
     };
 
-const createRes = async (req, props:EndpointProps) => {
+const resolve = async (req, res, location:string, props:EndpointProps) => {
+    const data = await createRes(req, location, props);
+
+    res.send(data).end();
+};
+
+const rejectIfInvalidLocation = res => {
+    res.sendStatus(404);
+};
+
+const createRes = async (req, location:string, props:EndpointProps):Promise<string> => {
     const client = createApolloClient({ req });
 
     const html = await createApp({
         client,
+        location,
         context: {},
-        location: req.url,
         devMode: props.devMode
     });
 
     return JSON.stringify({ html });
+};
+
+const getLocation = req => {
+    try {
+        return validateLocation(req.query.location || '/');
+    } catch (e) {
+        return null;
+    }
 };
 
 const createApolloClient = ({req}) =>

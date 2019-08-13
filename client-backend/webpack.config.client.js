@@ -9,12 +9,14 @@ module.exports = {
     name: 'client',
     mode: 'development',
     context: __dirname,
+    entry: path.join(__dirname, 'src/client.tsx'),
     node: {
         __dirname: true,
         __filename: true
     },
-    optimization: { minimize: false },
-    entry: path.join(__dirname, 'src/client.tsx'),
+    optimization: {
+        minimize: false
+    },
     output: {
         filename: 'client.js',
         chunkFilename: '[id].js?v=' + c.v,

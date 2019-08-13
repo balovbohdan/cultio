@@ -1,7 +1,8 @@
 import * as React from 'react';
 import {RouteProps} from 'react-router';
 
-const Home = () => <h1>home</h1>;
+import {Home} from './home';
+
 const Another = () => <h1>another</h1>;
 
 type Item = {
