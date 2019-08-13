@@ -2,6 +2,7 @@
   <dictionary name="balov">
     <words>
       <w>autoprefixer</w>
+      <w>classnames</w>
       <w>cssnano</w>
       <w>dirname</w>
       <w>esnext</w>
