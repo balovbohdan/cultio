@@ -4,6 +4,7 @@
       <w>autoprefixer</w>
       <w>classnames</w>
       <w>cssnano</w>
+      <w>datasets</w>
       <w>dirname</w>
       <w>esnext</w>
       <w>ident</w>
