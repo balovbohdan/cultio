@@ -12,14 +12,14 @@ const createListener = () =>
 const getFile = (req) => {
     const fileName = extractFileName(req);
 
-    return path.resolve(__dirname, '../../../assets/fonts/', fileName);
+    return path.resolve(__dirname, '../../assets/', fileName);
 };
 
 const extractFileName = req =>
-    req.originalUrl.split('/').pop();
+    String(req.originalUrl).replace(/\/?static\/assets\//, '');
 
-export const fonts:Endpoint = {
-    method: 'get',
+export const assets:Endpoint = {
+    method: 'use',
     createListener,
-    condition: '/assets/fonts'
+    condition: '/static/assets'
 };

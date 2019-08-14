@@ -18,6 +18,7 @@
       "@lib/*": ["lib/*"],
       "@routes/*": ["routes/*"],
       "@endpoints": ["endpoints"],
+      "@img/*": ["../assets/img/*"],
       "@endpoints/*": ["endpoints/*"],
       "@routes": ["components/routes"],
       "@fonts/*": ["../assets/fonts/*"],

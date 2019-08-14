@@ -68,11 +68,22 @@ module.exports = {
             },
             {
                 loader: 'url-loader',
-                test: /\.woff2?$/,
+                test: /\.(woff2?)|(ttf)$/,
                 options: {
+                    publicPath: 'static/assets/fonts',
                     name: c.devMode
-                        ? 'assets/fonts/[name].[ext]'
-                        : 'assets/fonts/[name]-[hash].[ext]'
+                        ? '[name].[ext]'
+                        : '[name]-[hash].[ext]'
+                }
+            },
+            {
+                loader: 'file-loader',
+                test: /\.svg$/,
+                options: {
+                    publicPath: 'static/assets/img',
+                    name: c.devMode
+                        ? '[name].[ext]'
+                        : '[name]-[hash].[ext]'
                 }
             }
         ]

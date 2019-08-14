@@ -3,6 +3,9 @@ import {makeStyles, createStyles, Theme} from '@material-ui/core/styles';
 const cb = (theme:Theme) =>
     createStyles({
         root: {
+            padding: '10px 0'
+        },
+        container: {
             height: '80px',
 
             display: 'flex',
@@ -13,15 +16,11 @@ const cb = (theme:Theme) =>
 
             display: 'flex'
         },
-        itemActions: {
-            justifyContent: 'flex-end'
-        },
-        itemLogo: {
-            img: {
-                width: '10px'
-            }
+        logoImg: {
+            width: 'calc(100% - 10px)'
         },
         paper: {
+            width: '100%',
             height: '100%',
             border: 'none',
             borderRadius: 0,
@@ -32,6 +31,9 @@ const cb = (theme:Theme) =>
 
             display: 'flex',
             alignItems: 'center'
+        },
+        paperActions: {
+            justifyContent: 'flex-end'
         },
         btn: {
             margin: theme.spacing(1)
