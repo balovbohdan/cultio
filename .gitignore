@@ -1,4 +1,6 @@
 dist
 .DS_STORE
 node_modules
+
 client-backend/coverage
+client-backend/src/__snapshots__

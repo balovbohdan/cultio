@@ -20,7 +20,7 @@ module.exports = {
         })
     ],
     optimization: { minimize: false },
-    entry: path.join(__dirname, 'src/server.tsx'),
+    entry: path.join(__dirname, 'src/server.ts'),
     output: {
         filename: 'server.js',
         chunkFilename: '[id].js?v=' + c.v,

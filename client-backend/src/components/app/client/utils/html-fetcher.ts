@@ -1,4 +1,8 @@
-export const fetchHtml = async () => {
+type Res = {
+    html:string;
+};
+
+export const fetchHtml = async ():Promise<Res> => {
     const url = createUrl();
     const params = createParams();
     const res = await fetch(url, params);

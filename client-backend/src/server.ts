@@ -1,5 +1,3 @@
-import * as React from 'react';
-
 import startServer from '@lib/server-starter';
 
 const c = require('../config');

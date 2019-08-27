@@ -1,9 +1,9 @@
 import * as React from 'react';
-import {hydrate, render} from 'react-dom';
+import {render} from 'react-dom';
 
 import {App} from '@components/app/client';
 
-render(
-    <App/>,
-    document.getElementById('app')
-);
+const wrapper = document.getElementById('app')
+    || document.createElement('div');
+
+export default render(<App/>, wrapper);
