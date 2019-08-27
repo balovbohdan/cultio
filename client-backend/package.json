@@ -10,7 +10,9 @@
     "build-client": "webpack --config webpack.config.client.js",
     "watch": "webpack --config webpack.config.server.js --watch",
     "hot-reload": "chmod +x scripts/hot-reload.sh && scripts/hot-reload.sh",
-    "do-start-dev": "chmod +x scripts/start-dev.sh && scripts/start-dev.sh"
+    "do-start-dev": "chmod +x scripts/start-dev.sh && scripts/start-dev.sh",
+    "test": "jest src",
+    "test-coverage": "jest --collectCoverageFrom=src/**.tsx --coverage src"
   },
   "keywords": [],
   "author": "",
@@ -45,6 +47,7 @@
     "@types/core-js": "^2.5.2",
     "@types/react": "^16.8.23",
     "@types/react-router": "^5.0.3",
+    "@types/enzyme": "^3.10.3",
     "ts-loader": "^6.0.4",
     "babel-loader": "^8.0.6",
     "copy-webpack-plugin": "^5.0.3",
@@ -67,6 +70,12 @@
     "webpack-dev-server": "^3.7.2",
     "webpack-node-externals": "^1.7.2",
     "autoprefixer": "^9.6.1",
-    "url-loader": "^2.1.0"
+    "url-loader": "^2.1.0",
+    "jest": "^24.9.0",
+    "ts-jest": "^24.0.2",
+    "babel-jest": "^24.9.0",
+    "enzyme": "^3.10.0",
+    "enzyme-adapter-react-16": "^1.14.0",
+    "enzyme-to-json": "^3.4.0"
   }
 }

@@ -1,5 +1,6 @@
 import * as React from 'react';
 
+import data from '@root/dummyData';
 import {Datasets} from '@components/datasets';
 import {Header} from '@components/header/home';
 
@@ -9,5 +10,5 @@ export const Home = () =>
     <>
         <Header/>
         <Cover/>
-        <Datasets/>
+        <Datasets items={data.datasets}/>
     </>;

@@ -2,15 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="197f21c0-3f71-4b14-9ded-1fd033fce027" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/client-backend/src/components/datasets/item/types.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client-backend/src/components/datasets/types.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/balov.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/balov.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client-backend/jest.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client-backend/setupTests.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client-backend/src/Foo.test.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client-backend/src/Foo.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client-backend/src/dummyData.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client-backend/scripts/hot-reload.sh" beforeDir="false" afterPath="$PROJECT_DIR$/client-backend/scripts/hot-reload.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client-backend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/client-backend/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client-backend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client-backend/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client-backend/src/components/datasets/Datasets.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client-backend/src/components/datasets/Datasets.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client-backend/src/components/datasets/item/Item.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client-backend/src/components/datasets/item/Item.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client-backend/src/components/datasets/item/style.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client-backend/src/components/datasets/item/style.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client-backend/src/components/datasets/style.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client-backend/src/components/datasets/style.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client-backend/src/components/datasets/types.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client-backend/src/components/datasets/types.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client-backend/src/components/routes/home/Home.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client-backend/src/components/routes/home/Home.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client-backend/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/client-backend/tsconfig.json" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -21,19 +26,33 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
   <component name="FUSProjectUsageTrigger">
     <session id="-1448722415">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="13" />
+          <entry key="project.closed" value="15" />
           <entry key="project.open.time.0" value="3" />
-          <entry key="project.open.time.1" value="3" />
+          <entry key="project.open.time.1" value="5" />
           <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.11" value="1" />
           <entry key="project.open.time.13" value="2" />
-          <entry key="project.open.time.2" value="2" />
+          <entry key="project.open.time.2" value="3" />
           <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="13" />
+          <entry key="project.opened" value="16" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -45,14 +64,14 @@
           <entry key="hs" value="1" />
           <entry key="htm" value="1" />
           <entry key="html" value="14" />
-          <entry key="js" value="131" />
-          <entry key="json" value="104" />
+          <entry key="js" value="141" />
+          <entry key="json" value="115" />
           <entry key="sh" value="13" />
           <entry key="src" value="1" />
           <entry key="start-dev" value="1" />
           <entry key="svg" value="2" />
-          <entry key="ts" value="140" />
-          <entry key="tsx" value="122" />
+          <entry key="ts" value="147" />
+          <entry key="tsx" value="127" />
           <entry key="tws" value="1" />
           <entry key="watch" value="1" />
         </counts>
@@ -63,13 +82,13 @@
           <entry key="CSS" value="31" />
           <entry key="HTML" value="15" />
           <entry key="Haskell" value="1" />
-          <entry key="JSON" value="79" />
-          <entry key="JavaScript" value="131" />
+          <entry key="JSON" value="87" />
+          <entry key="JavaScript" value="141" />
           <entry key="PLAIN_TEXT" value="8" />
           <entry key="SVG" value="2" />
-          <entry key="TypeScript" value="140" />
-          <entry key="TypeScript JSX" value="122" />
-          <entry key="tsconfig" value="27" />
+          <entry key="TypeScript" value="147" />
+          <entry key="TypeScript JSX" value="127" />
+          <entry key="tsconfig" value="30" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -79,11 +98,11 @@
           <entry key="hs" value="7" />
           <entry key="htm" value="2" />
           <entry key="html" value="187" />
-          <entry key="js" value="6460" />
-          <entry key="json" value="1963" />
+          <entry key="js" value="7094" />
+          <entry key="json" value="2299" />
           <entry key="sh" value="325" />
-          <entry key="ts" value="6419" />
-          <entry key="tsx" value="13712" />
+          <entry key="ts" value="6488" />
+          <entry key="tsx" value="14235" />
           <entry key="watch" value="22" />
         </counts>
       </usages-collector>
@@ -93,30 +112,45 @@
           <entry key="CSS" value="324" />
           <entry key="HTML" value="214" />
           <entry key="Haskell" value="7" />
-          <entry key="JSON" value="1650" />
-          <entry key="JavaScript" value="6460" />
+          <entry key="JSON" value="1949" />
+          <entry key="JavaScript" value="7094" />
           <entry key="PLAIN_TEXT" value="57" />
-          <entry key="TypeScript" value="6419" />
-          <entry key="TypeScript JSX" value="13687" />
-          <entry key="tsconfig" value="313" />
+          <entry key="TypeScript" value="6488" />
+          <entry key="TypeScript JSX" value="14210" />
+          <entry key="tsconfig" value="350" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts">
         <counts>
-          <entry key="TypeScriptServerServiceImpl" value="13" />
+          <entry key="TypeScriptServerServiceImpl" value="16" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.6368159">
+    <splitter split-orientation="horizontal" split-proportion="0.54651165">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/client-backend/src/components/datasets/Datasets.tsx">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="69">
-                  <caret line="3" column="27" selection-start-line="3" selection-start-column="27" selection-end-line="3" selection-end-column="27" />
+                <state>
+                  <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+                  <folding>
+                    <element signature="e#0#31#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/client-backend/src/components/routes/home/Home.tsx">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="299">
+                  <caret line="13" column="8" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
+                  <folding>
+                    <element signature="e#0#31#0" expanded="true" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -124,11 +158,50 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/client-backend/src/components/datasets/item/Item.tsx">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="621">
-                  <caret line="27" selection-start-line="27" selection-end-line="27" />
+                <state relative-caret-position="460">
+                  <caret line="39" column="19" selection-start-line="39" selection-start-column="19" selection-end-line="39" selection-end-column="19" />
                   <folding>
                     <element signature="e#0#31#0" expanded="true" />
                   </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/client-backend/src/Foo.test.tsx">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="161">
+                  <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+                  <folding>
+                    <element signature="e#0#32#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/client-backend/package.json">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="238">
+                  <caret line="14" column="55" selection-start-line="14" selection-start-column="55" selection-end-line="14" selection-end-column="55" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/client-backend/jest.config.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="92">
+                  <caret line="4" column="55" selection-start-line="4" selection-start-column="55" selection-end-line="4" selection-end-column="55" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/client-backend/setupTests.ts">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="23">
+                  <caret line="1" column="11" selection-start-line="1" selection-start-column="11" selection-end-line="1" selection-end-column="11" />
                 </state>
               </provider>
             </entry>
@@ -147,10 +220,10 @@
             </entry>
           </file>
           <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/client-backend/src/components/datasets/types.ts">
+            <entry file="file://$PROJECT_DIR$/client-backend/src/components/datasets/item/style.ts">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="23">
-                  <caret line="1" column="17" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
+                <state relative-caret-position="276">
+                  <caret line="12" column="26" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
                 </state>
               </provider>
             </entry>
@@ -161,7 +234,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>var</find>
       <find>clsx</find>
       <find>.render</find>
       <find>/core</find>
@@ -191,6 +263,7 @@
       <find>titleDa</find>
       <find>*</find>
       <find>&quot;</find>
+      <find>test</find>
     </findStrings>
     <replaceStrings>
       <replace>const</replace>
@@ -218,15 +291,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/client-backend/assets/html/index.dev.html" />
-        <option value="$PROJECT_DIR$/client-backend/assets/html/index.html" />
-        <option value="$PROJECT_DIR$/client-backend/src/components/app/server/utils/body-factory.tsx" />
-        <option value="$PROJECT_DIR$/client-backend/src/endpoints/root.ts" />
-        <option value="$PROJECT_DIR$/client-backend/src/components/app/server/App.tsx" />
-        <option value="$PROJECT_DIR$/client-backend/src/components/routes/main/Main.tsx" />
-        <option value="$PROJECT_DIR$/client-backend/src/components/routes/main/index.ts" />
-        <option value="$PROJECT_DIR$/client-backend/src/components/routes/utils/lazy-creator.ts" />
-        <option value="$PROJECT_DIR$/client-backend/src/components/routes/home/HomeLazy.tsx" />
         <option value="$PROJECT_DIR$/client-backend/src/components/routes/home/index.ts" />
         <option value="$PROJECT_DIR$/client-backend/src/components/app/client/utils/html-fetcher.ts" />
         <option value="$PROJECT_DIR$/client-backend/src/components/routes/utils/location-validator.ts" />
@@ -244,8 +308,6 @@
         <option value="$PROJECT_DIR$/client-backend/src/components/app/server/Router.tsx" />
         <option value="$PROJECT_DIR$/client-backend/src/components/header/home/index.ts" />
         <option value="$PROJECT_DIR$/client-backend/src/components/header/home/style.css" />
-        <option value="$PROJECT_DIR$/client-backend/package.json" />
-        <option value="$PROJECT_DIR$/client-backend/tsconfig.json" />
         <option value="$PROJECT_DIR$/client-backend/global.d.ts" />
         <option value="$PROJECT_DIR$/client-backend/src/components/header/home/Header.tsx" />
         <option value="$PROJECT_DIR$/client-backend/src/components/header/home/style.ts" />
@@ -261,14 +323,25 @@
         <option value="$PROJECT_DIR$/client-backend/src/css/fonts.css" />
         <option value="$PROJECT_DIR$/client-backend/src/components/datasets/index.ts" />
         <option value="$PROJECT_DIR$/client-backend/src/components/datasets/item/index.ts" />
-        <option value="$PROJECT_DIR$/client-backend/src/components/routes/home/Home.tsx" />
         <option value="$PROJECT_DIR$/client-backend/scripts/hot-reload.sh" />
         <option value="$PROJECT_DIR$/client-backend/src/components/datasets/style.ts" />
-        <option value="$PROJECT_DIR$/client-backend/src/components/datasets/item/style.ts" />
         <option value="$PROJECT_DIR$/client-backend/src/components/datasets/item/types.ts" />
-        <option value="$PROJECT_DIR$/client-backend/src/components/datasets/item/Item.tsx" />
         <option value="$PROJECT_DIR$/client-backend/src/components/datasets/types.ts" />
         <option value="$PROJECT_DIR$/client-backend/src/components/datasets/Datasets.tsx" />
+        <option value="$PROJECT_DIR$/client-backend/src/dummyData.ts" />
+        <option value="$PROJECT_DIR$/client-backend/src/components/routes/home/Home.tsx" />
+        <option value="$PROJECT_DIR$/client-backend/src/components/datasets/item/style.ts" />
+        <option value="$PROJECT_DIR$/client-backend/src/components/datasets/item/Item.tsx" />
+        <option value="$PROJECT_DIR$/client-backend/src/Foo.js" />
+        <option value="$PROJECT_DIR$/client-backend/src/Foo.test.js" />
+        <option value="$PROJECT_DIR$/client-backend/setupEnzyme.ts" />
+        <option value="$PROJECT_DIR$/client-backend/setupTests.js" />
+        <option value="$PROJECT_DIR$/client-backend/jest.config.js" />
+        <option value="$PROJECT_DIR$/client-backend/src/Foo.tsx" />
+        <option value="$PROJECT_DIR$/client-backend/tsconfig.spec.json" />
+        <option value="$PROJECT_DIR$/client-backend/tsconfig.json" />
+        <option value="$PROJECT_DIR$/client-backend/src/Foo.test.tsx" />
+        <option value="$PROJECT_DIR$/client-backend/package.json" />
       </list>
     </option>
   </component>
@@ -333,6 +406,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -345,38 +419,10 @@
               <item name="cultio" type="462c0819:PsiDirectoryNode" />
               <item name="client-backend" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="cultio" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cultio" type="462c0819:PsiDirectoryNode" />
-              <item name="client-backend" type="462c0819:PsiDirectoryNode" />
-              <item name="scripts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cultio" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cultio" type="462c0819:PsiDirectoryNode" />
-              <item name="client-backend" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cultio" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cultio" type="462c0819:PsiDirectoryNode" />
-              <item name="client-backend" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cultio" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cultio" type="462c0819:PsiDirectoryNode" />
-              <item name="client-backend" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="datasets" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -385,6 +431,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="javascript.nodejs.core.library.configured.version" value="10.15.3" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs.jest.jest_package" value="$PROJECT_DIR$/client-backend/node_modules/jest" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -420,7 +467,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="npm.build-server">
+  <component name="RunManager" selected="Jest.Foo">
     <configuration name="do-start-dev.sh" type="BashConfigurationType" factoryName="Bash" temporary="true">
       <module name="cultio" />
       <option name="INTERPRETER_OPTIONS" value="bash" />
@@ -431,14 +478,29 @@
       <option name="PARAMETERS" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="start.sh" type="BashConfigurationType" factoryName="Bash" temporary="true">
-      <module name="cultio" />
-      <option name="INTERPRETER_OPTIONS" value="bash" />
-      <option name="INTERPRETER_PATH" value="/usr/bin/env" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/frontend-backend/scripts" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/frontend-backend/scripts/start.sh" />
-      <option name="PARAMETERS" value="" />
+    <configuration name="Foo" type="JavaScriptTestRunnerJest" factoryName="Jest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <working-dir value="$PROJECT_DIR$/client-backend" />
+      <envs />
+      <scope-kind value="SUITE" />
+      <test-file value="$PROJECT_DIR$/client-backend/src/Foo.test.js" />
+      <test-names>
+        <test-name value="Foo" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="Foo.Should render correctly." type="JavaScriptTestRunnerJest" factoryName="Jest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <working-dir value="$PROJECT_DIR$/client-backend" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/client-backend/src/Foo.test.js" />
+      <test-names>
+        <test-name value="Foo" />
+        <test-name value="Should render correctly." />
+      </test-names>
       <method v="2" />
     </configuration>
     <configuration name="build-server" type="js.build_tools.npm" factoryName="npm" temporary="true" nameIsGenerated="true">
@@ -461,30 +523,20 @@
       <envs />
       <method v="2" />
     </configuration>
-    <configuration name="start" type="js.build_tools.npm" factoryName="npm" temporary="true" nameIsGenerated="true">
-      <package-json value="$PROJECT_DIR$/frontend-backend/package.json" />
-      <command value="run" />
-      <scripts>
-        <script value="start" />
-      </scripts>
-      <node-interpreter value="project" />
-      <envs />
-      <method v="2" />
-    </configuration>
     <list>
-      <item itemvalue="Bash.start.sh" />
-      <item itemvalue="npm.start" />
       <item itemvalue="npm.start-dev" />
       <item itemvalue="Bash.do-start-dev.sh" />
       <item itemvalue="npm.build-server" />
+      <item itemvalue="Jest.Foo" />
+      <item itemvalue="Jest.Foo.Should render correctly." />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Jest.Foo" />
+        <item itemvalue="Jest.Foo.Should render correctly." />
         <item itemvalue="npm.build-server" />
         <item itemvalue="npm.start-dev" />
         <item itemvalue="Bash.do-start-dev.sh" />
-        <item itemvalue="npm.start" />
-        <item itemvalue="Bash.start.sh" />
       </list>
     </recent_temporary>
   </component>
@@ -512,22 +564,50 @@
       <workItem from="1565760247859" duration="62000" />
       <workItem from="1565760333003" duration="7419000" />
       <workItem from="1565769477808" duration="2259000" />
+      <workItem from="1566557548182" duration="1677000" />
+      <workItem from="1566891877688" duration="3691000" />
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="Foo - 2019.08.27 at 11h 08m 53s.xml">
+      <configuration name="Foo" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+    <history-entry file="Foo - 2019.08.27 at 11h 09m 37s.xml">
+      <configuration name="Foo" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+    <history-entry file="Foo_Should_render_correctly_ - 2019.08.27 at 11h 09m 51s.xml">
+      <configuration name="Foo.Should render correctly." configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+    <history-entry file="Foo - 2019.08.27 at 11h 10m 15s.xml">
+      <configuration name="Foo" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+    <history-entry file="Foo - 2019.08.27 at 11h 11m 20s.xml">
+      <configuration name="Foo" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+    <history-entry file="Foo_Should_render_correctly_ - 2019.08.27 at 11h 11m 30s.xml">
+      <configuration name="Foo.Should render correctly." configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+    <history-entry file="Foo_Should_render_correctly_ - 2019.08.27 at 11h 11m 43s.xml">
+      <configuration name="Foo.Should render correctly." configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+    <history-entry file="Foo - 2019.08.27 at 11h 12m 46s.xml">
+      <configuration name="Foo" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="104815000" />
+    <option name="totallyTimeSpent" value="110183000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="797" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49892473" visible="true" weight="0.13733906" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49892473" visible="true" weight="0.2067239" />
       <window_info id="Structure" order="1" sideWeight="0.50107527" side_tool="true" weight="0.16237482" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32833582" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.15742129" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.16791604" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3988006" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -541,7 +621,7 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="right" id="Database" order="3" weight="0.3297568" />
     </layout>
     <layout-to-restore>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49892473" visible="true" weight="0.16881259" />
@@ -580,64 +660,6 @@
     </ignored-roots>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/client-backend/src/components/app/server/App.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="21" column="2" selection-start-line="21" selection-start-column="2" selection-end-line="21" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client-backend/src/components/routes/Lazy.tsx" />
-    <entry file="file://$PROJECT_DIR$/client-backend/src/components/routes/home/HomeLazy.tsx" />
-    <entry file="file://$PROJECT_DIR$/client-backend/src/components/routes/home/index.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="3" column="20" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client-backend/src/endpoints/root.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="12" column="23" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client-backend/src/components/app/server/utils/app-factory.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client-backend/src/components/app/server/utils/body-factory.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="98">
-          <caret line="14" column="17" lean-forward="true" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client-backend/src/components/app/client/utils/html-fetcher.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="20" column="3" lean-forward="true" selection-start-line="20" selection-start-column="3" selection-end-line="20" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client-backend/src/endpoints/types.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="6" column="12" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client-backend/src/endpoints/create-html.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1239">
-          <caret line="61" column="32" selection-start-line="61" selection-start-column="32" selection-end-line="61" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/client-backend/src/endpoints/get-client-bundle.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="46">
@@ -715,13 +737,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client-backend/tsconfig.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="369">
-          <caret line="20" column="33" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/client-backend/global.d.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="23">
@@ -750,13 +765,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="230">
           <caret line="10" column="15" lean-forward="true" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client-backend/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="51" column="9" selection-start-line="51" selection-start-column="5" selection-end-line="51" selection-end-column="9" />
         </state>
       </provider>
     </entry>
@@ -851,30 +859,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/client-backend/src/components/datasets/types.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" column="10" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client-backend/src/dummyData.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="15" selection-start-column="15" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client-backend/src/components/datasets/Datasets.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/client-backend/src/components/routes/home/Home.tsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="7" column="25" lean-forward="true" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
+        <state relative-caret-position="299">
+          <caret line="13" column="8" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
           <folding>
             <element signature="e#0#31#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client-backend/src/components/datasets/item/Item.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="621">
-          <caret line="27" selection-start-line="27" selection-end-line="27" />
-          <folding>
-            <element signature="e#0#31#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client-backend/src/components/datasets/item/style.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="17" column="37" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
         </state>
       </provider>
     </entry>
@@ -885,17 +900,95 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client-backend/src/components/datasets/types.ts">
+    <entry file="file://$PROJECT_DIR$/client-backend/src/components/datasets/item/style.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="1" column="17" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
+        <state relative-caret-position="276">
+          <caret line="12" column="26" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client-backend/src/components/datasets/Datasets.tsx">
+    <entry file="file://$PROJECT_DIR$/client-backend/node_modules/enzyme-adapter-react-16/build/index.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client-backend/setupEnzyme.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="3" column="27" selection-start-line="3" selection-start-column="27" selection-end-line="3" selection-end-column="27" />
+        <state>
+          <caret column="18" selection-start-column="18" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client-backend/setupTests.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="1" column="11" selection-start-line="1" selection-start-column="11" selection-end-line="1" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client-backend/jest.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" column="55" selection-start-line="4" selection-start-column="55" selection-end-line="4" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client-backend/node_modules/jest/build/jest.d.ts">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client-backend/node_modules/@types/enzyme/index.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-12252">
+          <caret line="140" column="39" selection-start-line="140" selection-start-column="35" selection-end-line="140" selection-end-column="39" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client-backend/src/components/datasets/item/Item.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="39" column="19" selection-start-line="39" selection-start-column="19" selection-end-line="39" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client-backend/tsconfig.test.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="29" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client-backend/src/Foo.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="41" selection-start-line="2" selection-start-column="41" selection-end-line="2" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client-backend/tsconfig.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="30" column="4" lean-forward="true" selection-start-line="30" selection-start-column="4" selection-end-line="30" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client-backend/src/Foo.test.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client-backend/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="55" selection-start-line="14" selection-start-column="55" selection-end-line="14" selection-end-column="55" />
         </state>
       </provider>
     </entry>

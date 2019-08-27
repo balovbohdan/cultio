@@ -4,24 +4,20 @@ import {Item} from './Item';
 import * as T from './types';
 import {useCss} from './style';
 
-const data = [
-    {
-        title: 'Contemplative Reptile',
-        descr: 'Lizards are a widespread group of squamate reptiles, with over 6,000 species...',
-        img: 'https://material-ui.com/static/images/cards/contemplative-reptile.jpg'
-    }
-];
-
-export const Datasets = () => {
+export const Datasets = ({items}:T.Props) => {
     const css = useCss();
 
     return (
         <div className={css.root}>
-
+            <Items items={items}/>
         </div>
     );
 };
 
-const Items = ({items}) => {
+const Items = ({items}:T.ItemsProps) => {
+    const c = items.map(({id, img, descr, title}) =>
+        <Item key={id} img={img} descr={descr} title={title}/>
+    );
 
+    return <>{c}</>;
 };
