@@ -18,7 +18,7 @@ export const Item = ({img, descr, title}:Props) => {
         <div className={css.root}>
             <Card className={css.card}>
                 <CardActionArea>
-                    <Media img={img} title={title}/>
+                    <Media css={css} img={img} title={title}/>
                     <Content css={css} descr={descr} title={title}/>
                 </CardActionArea>
             </Card>
@@ -26,13 +26,13 @@ export const Item = ({img, descr, title}:Props) => {
     );
 };
 
-const Media = ({img, title}) =>
+const Media = ({css, img, title}) =>
     <CardMedia
         image={img}
         alt={title}
-        height='140'
         title={title}
-        component='img'/>;
+        component='img'
+        className={css.cardMedia}/>;
 
 const Content = ({css, title, descr}) =>
     <CardContent className={css.cardContent}>

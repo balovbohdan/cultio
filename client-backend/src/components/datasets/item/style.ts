@@ -3,14 +3,17 @@ import {makeStyles, createStyles, Theme} from '@material-ui/core/styles';
 const cb = (theme:Theme) =>
     createStyles({
         root: {
-            margin: '5px',
-            width: 'calc(33.33% - 10px)'
+            margin: '10px',
+            width: 'calc(33.33% - 20px)'
         },
         card: {
             width: '100%'
         },
+        cardMedia: {
+            height: '170px'
+        },
         cardContent: {
-            height: '100px',
+            height: '130px',
             overflow: 'hidden'
         }
     });
