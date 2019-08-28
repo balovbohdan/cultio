@@ -2,8 +2,9 @@ import * as React from 'react';
 import * as classnames from 'classnames';
 import {Grid, Paper, Button} from '@material-ui/core';
 
-import {useCss} from './style';
 import * as logo from '@img/logo.svg';
+
+import {useCss} from './style';
 
 export const Header = () => {
     const css = useCss();

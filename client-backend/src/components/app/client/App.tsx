@@ -3,22 +3,18 @@ import * as React from 'react';
 import {fetchHtml} from './utils';
 
 type Props = {
-    testRes?:any;
+    html?:string;
     testMode?:boolean;
 };
 
-export const App = (props:Props) => {
-    const [__html, setHtml] = React.useState('');
+export const App = ({html, testMode}:Props) => {
+    const [__html, setHtml] = React.useState(html || '');
 
-    doFetchHtml(props)
-        .then(({html}) => setHtml(html));
+    if (!testMode && !html)
+        fetchHtml()
+            .then(({html}) => setHtml(html));
 
     return __html
         ? <div dangerouslySetInnerHTML={{ __html }}/>
         : null;
 };
-
-const doFetchHtml = async ({testMode, testRes}:Props) =>
-    testMode
-        ? testRes || { html: 'html' }
-        : await fetchHtml();

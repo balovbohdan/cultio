@@ -1,5 +1,5 @@
 import * as React from 'react';
-import {shallow, mount} from 'enzyme';
+import {shallow} from 'enzyme';
 
 import {act} from 'react-dom/test-utils';
 import {render, unmountComponentAtNode} from 'react-dom';
@@ -28,11 +28,14 @@ describe('app/client/App', () => {
     });
 
     it('Should have HTML string in the state', async () => {
+        const html = 'html';
+
         await act(async () => {
-            const testRes = { html: 'html' };
-            const component = <App testMode={true} testRes={testRes}/>;
+            const component = <App html={html} testMode={true}/>;
 
             render(component, container);
         });
+
+        container && expect(container.textContent).toMatch(html);
     });
 });
