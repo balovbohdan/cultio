@@ -2,20 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="197f21c0-3f71-4b14-9ded-1fd033fce027" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/client-backend/src/components/app/client/utils/html-fetcher.test.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client-backend/src/components/header/home/Header.test.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client-backend/testAssetsTransformer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/balov.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/balov.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client-backend/jest.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/client-backend/jest.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client-backend/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client-backend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client-backend/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client-backend/src/Foo.test.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client-backend/src/Foo.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client-backend/src/components/app/client/App.test.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client-backend/src/components/app/client/App.test.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client-backend/src/components/app/client/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client-backend/src/components/app/client/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client-backend/src/components/app/client/utils/html-fetcher.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client-backend/src/components/app/client/utils/html-fetcher.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client-backend/src/components/header/home/Header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client-backend/src/components/header/home/Header.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -61,13 +48,14 @@
           <entry key="babelrc" value="2" />
           <entry key="command" value="2" />
           <entry key="css" value="31" />
-          <entry key="gitignore" value="4" />
+          <entry key="gitignore" value="5" />
           <entry key="hs" value="1" />
           <entry key="htm" value="1" />
           <entry key="html" value="14" />
           <entry key="js" value="159" />
           <entry key="json" value="137" />
           <entry key="sh" value="14" />
+          <entry key="snap" value="1" />
           <entry key="src" value="1" />
           <entry key="start-dev" value="1" />
           <entry key="svg" value="2" />
@@ -85,7 +73,8 @@
           <entry key="Haskell" value="1" />
           <entry key="JSON" value="103" />
           <entry key="JavaScript" value="159" />
-          <entry key="PLAIN_TEXT" value="10" />
+          <entry key="Jest Snapshot" value="1" />
+          <entry key="PLAIN_TEXT" value="11" />
           <entry key="SVG" value="2" />
           <entry key="TypeScript" value="166" />
           <entry key="TypeScript JSX" value="145" />
@@ -95,7 +84,7 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="css" value="324" />
-          <entry key="gitignore" value="83" />
+          <entry key="gitignore" value="103" />
           <entry key="hs" value="7" />
           <entry key="htm" value="2" />
           <entry key="html" value="187" />
@@ -115,7 +104,7 @@
           <entry key="Haskell" value="7" />
           <entry key="JSON" value="2089" />
           <entry key="JavaScript" value="7728" />
-          <entry key="PLAIN_TEXT" value="105" />
+          <entry key="PLAIN_TEXT" value="125" />
           <entry key="TypeScript" value="10482" />
           <entry key="TypeScript JSX" value="17678" />
           <entry key="tsconfig" value="419" />
@@ -135,8 +124,8 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/client-backend/src/components/header/home/Header.test.tsx">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="161">
-                  <caret line="7" column="24" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
+                <state relative-caret-position="253">
+                  <caret line="11" column="3" lean-forward="true" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
                   <folding>
                     <element signature="e#0#31#0" expanded="true" />
                   </folding>
@@ -145,10 +134,10 @@
             </entry>
           </file>
           <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/client-backend/testAssetsTransformer.js">
+            <entry file="file://$PROJECT_DIR$/.gitignore">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="115">
-                  <caret line="5" column="53" selection-start-line="5" selection-start-column="53" selection-end-line="5" selection-end-column="53" />
+                <state relative-caret-position="46">
+                  <caret line="2" column="12" lean-forward="true" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
                 </state>
               </provider>
             </entry>
@@ -262,7 +251,6 @@
         <option value="$PROJECT_DIR$/client-backend/src/client.test.tsx" />
         <option value="$PROJECT_DIR$/client-backend/src/lib/server.test.tsx" />
         <option value="$PROJECT_DIR$/client-backend/src/server.test.tsx" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/client-backend/src/lib/fetch-getter.ts" />
         <option value="$PROJECT_DIR$/client-backend/src/server.tsx" />
         <option value="$PROJECT_DIR$/client-backend/src/client.tsx" />
@@ -280,6 +268,7 @@
         <option value="$PROJECT_DIR$/client-backend/src/components/header/home/Header.tsx" />
         <option value="$PROJECT_DIR$/client-backend/jest.config.js" />
         <option value="$PROJECT_DIR$/client-backend/testAssetsTransformer.js" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -356,6 +345,36 @@
               <item name="cultio" type="b2602c69:ProjectViewProjectNode" />
               <item name="cultio" type="462c0819:PsiDirectoryNode" />
               <item name="client-backend" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cultio" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cultio" type="462c0819:PsiDirectoryNode" />
+              <item name="client-backend" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cultio" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cultio" type="462c0819:PsiDirectoryNode" />
+              <item name="client-backend" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cultio" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cultio" type="462c0819:PsiDirectoryNode" />
+              <item name="client-backend" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="header" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cultio" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cultio" type="462c0819:PsiDirectoryNode" />
+              <item name="client-backend" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="header" type="462c0819:PsiDirectoryNode" />
+              <item name="home" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -513,7 +532,7 @@
       <workItem from="1565769477808" duration="2259000" />
       <workItem from="1566557548182" duration="1677000" />
       <workItem from="1566891877688" duration="4679000" />
-      <workItem from="1566897854669" duration="19105000" />
+      <workItem from="1566897854669" duration="19354000" />
     </task>
     <servers />
   </component>
@@ -550,7 +569,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="130276000" />
+    <option name="totallyTimeSpent" value="130525000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="797" extended-state="0" />
@@ -561,7 +580,7 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32833582" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3838081" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3838081" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3988006" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -614,13 +633,6 @@
     </ignored-roots>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/client-backend/src/css/roboto-fonts.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="1" selection-start-line="1" selection-end-line="11" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/client-backend/src/css/fonts.css">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -798,13 +810,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="5" column="32" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/client-backend/node_modules/@types/sinon/index.d.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="208">
@@ -956,20 +961,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/client-backend/testAssetsTransformer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" column="53" selection-start-line="5" selection-start-column="53" selection-end-line="5" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client-backend/src/__snapshots__/client.test.tsx.snap">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/client-backend/src/components/header/home/Header.test.tsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="7" column="24" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
+        <state relative-caret-position="253">
+          <caret line="11" column="3" lean-forward="true" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
           <folding>
             <element signature="e#0#31#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client-backend/testAssetsTransformer.js">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="5" column="53" selection-start-line="5" selection-start-column="53" selection-end-line="5" selection-end-column="53" />
+        <state relative-caret-position="46">
+          <caret line="2" column="12" lean-forward="true" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
         </state>
       </provider>
     </entry>
