@@ -5,6 +5,9 @@ import * as T from './types';
 import {useCss} from './style';
 
 export const Datasets = ({items}:T.Props) => {
+    if (!items || items.length <= 0)
+        return null;
+
     const css = useCss();
 
     return (

@@ -11,11 +11,13 @@ import {
 import {Props} from './types';
 import {useCss} from './style';
 
-export const Item = ({img, descr, title}:Props) => {
+export const Item = ({img, descr, title, onClick}:Props) => {
+    onClick = onClick || undefined;
+
     const css = useCss();
 
     return (
-        <div className={css.root}>
+        <div onClick={onClick} className={css.root}>
             <Card className={css.card}>
                 <CardActionArea>
                     <Media css={css} img={img} title={title}/>

@@ -1,5 +1,5 @@
 export type Props = {
-    items:Item[];
+    items?:null|Item[];
 };
 
 export type ItemsProps = {

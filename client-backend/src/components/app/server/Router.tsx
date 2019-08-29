@@ -15,7 +15,7 @@ export const Router = ({location, context}:Props) =>
         </Switch>
     </StaticRouter>;
 
-const Routes = () => {
+const Routes = ({testMode}:{testMode?:boolean}) => {
     const items = routes.map(route =>
         <Route key={route.name} {...route.meta}/>
     );

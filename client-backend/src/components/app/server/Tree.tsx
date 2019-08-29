@@ -4,6 +4,7 @@ import {ApolloProvider} from 'react-apollo';
 import {ThemeProvider} from '@material-ui/styles';
 
 import {theme} from '@root/theme';
+
 import {Router} from './Router';
 
 type Props = {

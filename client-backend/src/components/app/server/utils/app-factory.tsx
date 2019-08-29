@@ -12,13 +12,13 @@ type HtmlFactoryProps = {
     contextStyle:string;
 };
 
-export const createApp = async (props:Props) => {
+export const createApp = async (props:Props):Promise<string> => {
     const body = await doCreateBody(props);
 
     return createStr(body);
 };
 
-const createStr = body => {
+const createStr = (body:React.ReactNode):string => {
     const initialStyle = collectInitial();
     const sheets = new ServerStyleSheets();
     const bodyStr = renderToStaticMarkup(sheets.collect(body));
@@ -33,7 +33,7 @@ const createStr = body => {
     });
 };
 
-const createHtml = ({body, muiStyle, initialStyle, contextStyle}:HtmlFactoryProps) =>
+const createHtml = ({body, muiStyle, initialStyle, contextStyle}:HtmlFactoryProps):string =>
     `
         <style id='mui-ssr-style' rel='stylesheet'>
             ${muiStyle}
@@ -43,7 +43,7 @@ const createHtml = ({body, muiStyle, initialStyle, contextStyle}:HtmlFactoryProp
         ${body}
     `;
 
-const doCreateBody = ({client, context, devMode, location}:Props) =>
+const doCreateBody = ({client, context, devMode, location}:Props):Promise<React.ReactNode> =>
     createBody({
         client,
         devMode,

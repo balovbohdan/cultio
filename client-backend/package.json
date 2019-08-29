@@ -11,8 +11,8 @@
     "watch": "webpack --config webpack.config.server.js --watch",
     "hot-reload": "chmod +x scripts/hot-reload.sh && scripts/hot-reload.sh",
     "do-start-dev": "chmod +x scripts/start-dev.sh && scripts/start-dev.sh",
-    "test": "jest src",
-    "test-coverage": "jest --coverage src"
+    "test": "TEST_MODE=true jest src",
+    "test-coverage": "TEST_MODE=true jest --coverage src"
   },
   "keywords": [],
   "author": "",

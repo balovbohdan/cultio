@@ -12,7 +12,7 @@ export type Props = {
     context:{[key:string]:any};
 };
 
-export const createBody = async (props:Props) => {
+export const createBody = async (props:Props):Promise<React.ReactNode> => {
     const state = props.client.extract();
     const content = await createTree(props);
 

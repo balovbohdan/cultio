@@ -7,22 +7,25 @@ module.exports = {
     testPathIgnorePatterns: ['node_modules'],
     moduleFileExtensions: ['js', 'json', 'ts', 'tsx'],
     snapshotSerializers: ['enzyme-to-json/serializer'],
+    setupFilesAfterEnv: ['<rootDir>/__tests__/setup.js'],
 
     coveragePathIgnorePatterns: [
         'node_modules',
         '<rootDir>/src/server.ts'
     ],
     moduleNameMapper: {
-        '@root/(.*)$': '<rootDir>/src/$1',
-        '@lib/(.*)$': '<rootDir>/src/lib/$1',
-        '@img/(.*)$': '<rootDir>/assets/img/$1',
-        '@components/(.*)$': '<rootDir>/src/components/$1'
+        '@root/?(.*)$': '<rootDir>/src/$1',
+        '@lib/?(.*)$': '<rootDir>/src/lib/$1',
+        '@img/?(.*)$': '<rootDir>/assets/img/$1',
+        '@endpoints/?(.*)$': '<rootDir>/src/endpoints/$1',
+        '@components/?(.*)$': '<rootDir>/src/components/$1',
+        '@routes/?(.*)$': '<rootDir>/src/components/routes/$1'
     },
     transform: {
         '^.+\\.tsx?$': 'ts-jest',
         '^.+\\.js$': 'babel-jest',
 
-        '\\.css$': '<rootDir>/testAssetsTransformer.js',
-        '\\.(jpg|jpeg|png|gif|eot|otf|webp|svg|ttf|woff|woff2|mp4|webm|wav|mp3|m4a|aac|oga)$': '<rootDir>/testAssetsTransformer.js'
+        '\\.css$': '<rootDir>/__tests__/assetsTransformer.js',
+        '\\.(jpg|jpeg|png|gif|eot|otf|webp|svg|ttf|woff|woff2|mp4|webm|wav|mp3|m4a|aac|oga)$': '<rootDir>/__tests__/assetsTransformer.js'
     }
 };
