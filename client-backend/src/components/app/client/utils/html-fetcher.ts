@@ -1,22 +1,18 @@
-import * as fetch from 'whatwg-fetch';
+import {fetch} from 'whatwg-fetch';
 
 type Props = {
+    fetch?:any;
     pathname?:string;
-    fetch?:CustomFetch;
 };
 
 type PropsPrepared = {
+    fetch;
     pathname:string;
-    fetch:CustomFetch;
 };
 
 type Res = {
     html:string;
 };
-
-export type CustomFetch = (url:string, params:{[key:string]:any})=>Promise<{
-    json:()=>Promise<Res>;
-}>;
 
 export const fetchHtml = async (props:Props = {}):Promise<Res> => {
     const {fetch, pathname} = prepareProps(props);
