@@ -3,11 +3,11 @@ module.exports = {
     collectCoverageFrom: ['<rootDir>/src/**/*.tsx?'],
 
     roots: ['./src'],
-    setupFiles: ['<rootDir>/setupTests.ts'],
     testPathIgnorePatterns: ['node_modules'],
+    setupFiles: ['<rootDir>/__tests__/setup.ts'],
     snapshotSerializers: ['enzyme-to-json/serializer'],
-    setupFilesAfterEnv: ['<rootDir>/__tests__/setup.js'],
     moduleFileExtensions: ['js', 'jsx', 'ts', 'tsx', 'json'],
+    setupFilesAfterEnv: ['<rootDir>/__tests__/setupAfterEnv.js'],
 
     coveragePathIgnorePatterns: [
         'node_modules',

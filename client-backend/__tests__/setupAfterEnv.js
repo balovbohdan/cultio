@@ -21,7 +21,8 @@ expect.extend({
             };
 
             const checkForArr = arg => {
-                const reducer = (prev, curr) => prev || isCorrectType(curr).isCorrect;
+                const reducer = (prev, curr) => prev
+                    || isCorrectType(curr).isCorrect;
 
                 return arg.reduce(reducer, false);
             };
