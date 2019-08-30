@@ -2,29 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="197f21c0-3f71-4b14-9ded-1fd033fce027" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/client-backend/__tests__/setup.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client-backend/src/components/app/server/utils/app-factory.test.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client-backend/src/components/datasets/Datasets.test.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client-backend/src/components/datasets/item/Item.test.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client-backend/src/components/gql-query/GqlQuery.test.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client-backend/src/endpoints/create-html.test.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client-backend/src/endpoints/assets.test.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client-backend/src/endpoints/get-client-bundle.test.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client-backend/src/endpoints/root.test.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client-backend/__tests__/setup.js" beforeDir="false" afterPath="$PROJECT_DIR$/client-backend/__tests__/setup.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client-backend/global.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client-backend/global.d.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client-backend/jest.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/client-backend/jest.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client-backend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client-backend/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client-backend/src/client.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client-backend/src/client.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client-backend/src/components/app/server/Router.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client-backend/src/components/app/server/Router.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client-backend/src/components/app/server/Tree.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client-backend/src/components/app/server/Tree.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client-backend/src/components/app/server/utils/app-factory.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client-backend/src/components/app/server/utils/app-factory.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client-backend/src/components/app/server/utils/body-factory.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client-backend/src/components/app/server/utils/body-factory.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client-backend/src/components/datasets/Datasets.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client-backend/src/components/datasets/Datasets.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client-backend/src/components/datasets/item/Item.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client-backend/src/components/datasets/item/Item.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client-backend/src/components/datasets/item/types.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client-backend/src/components/datasets/item/types.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client-backend/src/components/datasets/types.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client-backend/src/components/datasets/types.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client-backend/src/components/gql-query/GqlQuery.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client-backend/src/components/gql-query/GqlQuery.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client-backend/src/components/header/main/Header.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client-backend/src/components/header/main/index.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client-backend/testAssetsTransformer.js" beforeDir="false" afterPath="$PROJECT_DIR$/client-backend/__tests__/assetsTransformer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client-backend/src/endpoints/create-html.test.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client-backend/src/endpoints/create-html.test.tsx" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -74,15 +59,15 @@
           <entry key="hs" value="1" />
           <entry key="htm" value="1" />
           <entry key="html" value="14" />
-          <entry key="js" value="166" />
+          <entry key="js" value="172" />
           <entry key="json" value="141" />
           <entry key="sh" value="14" />
           <entry key="snap" value="1" />
           <entry key="src" value="1" />
           <entry key="start-dev" value="1" />
           <entry key="svg" value="2" />
-          <entry key="ts" value="178" />
-          <entry key="tsx" value="200" />
+          <entry key="ts" value="194" />
+          <entry key="tsx" value="204" />
           <entry key="tws" value="1" />
           <entry key="watch" value="1" />
         </counts>
@@ -94,12 +79,12 @@
           <entry key="HTML" value="15" />
           <entry key="Haskell" value="1" />
           <entry key="JSON" value="106" />
-          <entry key="JavaScript" value="166" />
+          <entry key="JavaScript" value="172" />
           <entry key="Jest Snapshot" value="1" />
           <entry key="PLAIN_TEXT" value="11" />
           <entry key="SVG" value="2" />
-          <entry key="TypeScript" value="178" />
-          <entry key="TypeScript JSX" value="200" />
+          <entry key="TypeScript" value="194" />
+          <entry key="TypeScript JSX" value="204" />
           <entry key="tsconfig" value="37" />
         </counts>
       </usages-collector>
@@ -110,11 +95,11 @@
           <entry key="hs" value="7" />
           <entry key="htm" value="2" />
           <entry key="html" value="187" />
-          <entry key="js" value="8079" />
+          <entry key="js" value="8704" />
           <entry key="json" value="2540" />
           <entry key="sh" value="334" />
-          <entry key="ts" value="10598" />
-          <entry key="tsx" value="22253" />
+          <entry key="ts" value="11275" />
+          <entry key="tsx" value="22536" />
           <entry key="watch" value="22" />
         </counts>
       </usages-collector>
@@ -125,10 +110,10 @@
           <entry key="HTML" value="214" />
           <entry key="Haskell" value="7" />
           <entry key="JSON" value="2121" />
-          <entry key="JavaScript" value="8079" />
+          <entry key="JavaScript" value="8704" />
           <entry key="PLAIN_TEXT" value="125" />
-          <entry key="TypeScript" value="10598" />
-          <entry key="TypeScript JSX" value="22228" />
+          <entry key="TypeScript" value="11275" />
+          <entry key="TypeScript JSX" value="22511" />
           <entry key="tsconfig" value="419" />
         </counts>
       </usages-collector>
@@ -140,14 +125,34 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.37532356">
+    <splitter split-orientation="horizontal" split-proportion="0.52554744">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/client-backend/src/endpoints/create-html.tsx">
+            <entry file="file://$PROJECT_DIR$/client-backend/src/endpoints/get-client-bundle.test.ts">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="50">
-                  <caret line="52" selection-start-line="52" selection-end-line="52" />
+                <state relative-caret-position="303">
+                  <caret line="20" column="17" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/client-backend/src/endpoints/assets.ts">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="-88">
+                  <folding>
+                    <element signature="e#0#29#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/client-backend/src/endpoints/create-html.test.tsx">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="207">
+                  <caret line="9" column="39" selection-start-line="9" selection-start-column="39" selection-end-line="9" selection-end-column="39" />
                   <folding>
                     <element signature="e#0#31#0" expanded="true" />
                   </folding>
@@ -156,19 +161,28 @@
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/client-backend/__tests__/assetsTransformer.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="115">
+                  <caret line="5" column="53" selection-start-line="5" selection-start-column="53" selection-end-line="5" selection-end-column="53" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/client-backend/__tests__/setup.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="69">
-                  <caret line="3" column="26" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="26" />
+                <state relative-caret-position="391">
+                  <caret line="17" column="35" lean-forward="true" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
                 </state>
               </provider>
             </entry>
           </file>
           <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/client-backend/global.d.ts">
+            <entry file="file://$PROJECT_DIR$/client-backend/jest.config.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="69">
-                  <caret line="3" column="21" lean-forward="true" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
+                <state relative-caret-position="46">
+                  <caret line="2" column="50" selection-start-line="2" selection-start-column="50" selection-end-line="2" selection-end-column="50" />
                 </state>
               </provider>
             </entry>
@@ -178,25 +192,19 @@
       <split-second>
         <leaf>
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/client-backend/src/endpoints/create-html.test.tsx">
+            <entry file="file://$PROJECT_DIR$/client-backend/src/endpoints/root.test.ts">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="161">
-                  <caret line="7" selection-start-line="7" selection-end-line="7" />
-                  <folding>
-                    <element signature="e#0#31#0" expanded="true" />
-                  </folding>
+                <state>
+                  <caret column="8" selection-start-column="8" selection-end-column="8" />
                 </state>
               </provider>
             </entry>
           </file>
           <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/client-backend/node_modules/@types/jest/index.d.ts">
+            <entry file="file://$PROJECT_DIR$/client-backend/src/endpoints/assets.test.ts">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="191">
-                  <caret line="66" column="24" selection-start-line="66" selection-start-column="16" selection-end-line="66" selection-end-column="24" />
-                  <folding>
-                    <element signature="n#!!doc" expanded="true" />
-                  </folding>
+                <state relative-caret-position="92">
+                  <caret line="4" column="58" selection-start-line="4" selection-start-column="58" selection-end-line="4" selection-end-column="58" />
                 </state>
               </provider>
             </entry>
@@ -207,9 +215,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>*</find>
-      <find>test</find>
-      <find>types/je</find>
       <find>hydrate</find>
       <find>node-fet</find>
       <find>node-fetch</find>
@@ -237,6 +242,9 @@
       <find>toMatch</find>
       <find>Matchers&lt;R&gt;</find>
       <find>Matchers</find>
+      <find>isArray</find>
+      <find>initialType</find>
+      <find>getClientBundle</find>
     </findStrings>
     <replaceStrings>
       <replace>const</replace>
@@ -254,6 +262,8 @@
       <replace>useCss</replace>
       <replace>'</replace>
       <replace>arg</replace>
+      <replace>receivedType</replace>
+      <replace>assets</replace>
     </replaceStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/frontend-backend/src/routes</dir>
@@ -265,10 +275,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/client-backend/src/components/datasets/index.ts" />
-        <option value="$PROJECT_DIR$/client-backend/src/components/datasets/item/index.ts" />
-        <option value="$PROJECT_DIR$/client-backend/src/components/datasets/style.ts" />
-        <option value="$PROJECT_DIR$/client-backend/src/dummyData.ts" />
         <option value="$PROJECT_DIR$/client-backend/src/components/routes/home/Home.tsx" />
         <option value="$PROJECT_DIR$/client-backend/src/components/datasets/item/style.ts" />
         <option value="$PROJECT_DIR$/client-backend/src/Foo.js" />
@@ -309,13 +315,17 @@
         <option value="$PROJECT_DIR$/client-backend/src/components/app/server/Tree.tsx" />
         <option value="$PROJECT_DIR$/client-backend/package.json" />
         <option value="$PROJECT_DIR$/client-backend/src/components/app/server/utils/body-factory.tsx" />
-        <option value="$PROJECT_DIR$/client-backend/jest.config.js" />
         <option value="$PROJECT_DIR$/client-backend/src/components/gql-query/GqlQuery.tsx" />
         <option value="$PROJECT_DIR$/client-backend/src/components/gql-query/GqlQuery.test.tsx" />
         <option value="$PROJECT_DIR$/client-backend/src/endpoints/create-html.tsx" />
+        <option value="$PROJECT_DIR$/client-backend/__tests__/setup.ts" />
+        <option value="$PROJECT_DIR$/client-backend/global.d.ts" />
         <option value="$PROJECT_DIR$/client-backend/__tests__/setup.js" />
         <option value="$PROJECT_DIR$/client-backend/src/endpoints/create-html.test.tsx" />
-        <option value="$PROJECT_DIR$/client-backend/global.d.ts" />
+        <option value="$PROJECT_DIR$/client-backend/src/endpoints/get-client-bundle.test.ts" />
+        <option value="$PROJECT_DIR$/client-backend/src/endpoints/root.test.ts" />
+        <option value="$PROJECT_DIR$/client-backend/src/endpoints/assets.test.ts" />
+        <option value="$PROJECT_DIR$/client-backend/jest.config.js" />
       </list>
     </option>
   </component>
@@ -441,7 +451,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Jest.header/home/Header.Should render correctly">
+  <component name="RunManager" selected="Jest.endpoints/create-html.Should have valid endpoint data">
     <configuration name="Foo" type="JavaScriptTestRunnerJest" factoryName="Jest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
@@ -451,19 +461,6 @@
       <test-file value="$PROJECT_DIR$/client-backend/src/Foo.test.js" />
       <test-names>
         <test-name value="Foo" />
-      </test-names>
-      <method v="2" />
-    </configuration>
-    <configuration name="Foo.Should render correctly." type="JavaScriptTestRunnerJest" factoryName="Jest" temporary="true" nameIsGenerated="true">
-      <node-interpreter value="project" />
-      <node-options value="" />
-      <working-dir value="$PROJECT_DIR$/client-backend" />
-      <envs />
-      <scope-kind value="TEST" />
-      <test-file value="$PROJECT_DIR$/client-backend/src/Foo.test.js" />
-      <test-names>
-        <test-name value="Foo" />
-        <test-name value="Should render correctly." />
       </test-names>
       <method v="2" />
     </configuration>
@@ -493,6 +490,19 @@
       </test-names>
       <method v="2" />
     </configuration>
+    <configuration name="endpoints/create-html.Should have valid endpoint data" type="JavaScriptTestRunnerJest" factoryName="Jest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <working-dir value="$PROJECT_DIR$/client-backend" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/client-backend/src/endpoints/create-html.test.tsx" />
+      <test-names>
+        <test-name value="endpoints/create-html" />
+        <test-name value="Should have valid endpoint data" />
+      </test-names>
+      <method v="2" />
+    </configuration>
     <configuration name="header/home/Header.Should render correctly" type="JavaScriptTestRunnerJest" factoryName="Jest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
@@ -508,18 +518,18 @@
     </configuration>
     <list>
       <item itemvalue="Jest.Foo" />
-      <item itemvalue="Jest.Foo.Should render correctly." />
       <item itemvalue="Jest.app/client/App.Should render correctly" />
       <item itemvalue="Jest.app/client/App.Should have HTML string in the state" />
       <item itemvalue="Jest.header/home/Header.Should render correctly" />
+      <item itemvalue="Jest.endpoints/create-html.Should have valid endpoint data" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Jest.endpoints/create-html.Should have valid endpoint data" />
         <item itemvalue="Jest.header/home/Header.Should render correctly" />
         <item itemvalue="Jest.app/client/App.Should have HTML string in the state" />
         <item itemvalue="Jest.app/client/App.Should render correctly" />
         <item itemvalue="Jest.Foo" />
-        <item itemvalue="Jest.Foo.Should render correctly." />
       </list>
     </recent_temporary>
   </component>
@@ -551,14 +561,11 @@
       <workItem from="1566891877688" duration="4679000" />
       <workItem from="1566897854669" duration="19505000" />
       <workItem from="1567071478762" duration="236000" />
-      <workItem from="1567071770400" duration="10925000" />
+      <workItem from="1567071770400" duration="14109000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Foo_Should_render_correctly_ - 2019.08.27 at 11h 09m 51s.xml">
-      <configuration name="Foo.Should render correctly." configurationId="JavaScriptTestRunnerJest" />
-    </history-entry>
     <history-entry file="Foo - 2019.08.27 at 11h 10m 15s.xml">
       <configuration name="Foo" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
@@ -586,15 +593,18 @@
     <history-entry file="header_home_Header_Should_render_correctly - 2019.08.28 at 10h 43m 33s.xml">
       <configuration name="header/home/Header.Should render correctly" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
+    <history-entry file="endpoints_create-html_Should_have_valid_endpoint_data - 2019.08.30 at 09h 39m 42s.xml">
+      <configuration name="endpoints/create-html.Should have valid endpoint data" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="141837000" />
+    <option name="totallyTimeSpent" value="145021000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="797" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49892473" visible="true" weight="0.17095852" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49892473" visible="true" weight="0.1788269" />
       <window_info id="Structure" order="1" sideWeight="0.50107527" side_tool="true" weight="0.16237482" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -652,43 +662,6 @@
     </ignored-roots>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/client-backend/src/server.test.tsx" />
-    <entry file="file://$PROJECT_DIR$/client-backend/node_modules/@types/sinon/index.d.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="1511" column="8" selection-start-line="1511" selection-start-column="8" selection-end-line="1511" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client-backend/node_modules/typescript/lib/lib.es5.d.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="297" column="4" selection-start-line="297" selection-start-column="4" selection-end-line="297" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client-backend/node_modules/node-fetch/browser.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-90">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client-backend/node_modules/node-fetch/lib/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="6" column="32" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client-backend/scripts/hot-reload.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" column="44" selection-start-line="2" selection-start-column="44" selection-end-line="2" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client-backend/src/lib/client-fetch-getter.ts" />
     <entry file="file://$PROJECT_DIR$/client-backend/src/server.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="161">
@@ -726,13 +699,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="372">
           <caret line="27" column="10" selection-start-line="27" selection-start-column="10" selection-end-line="27" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client-backend/__tests__/assetsTransformer.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="5" column="53" selection-start-line="5" selection-start-column="53" selection-end-line="5" selection-end-column="53" />
         </state>
       </provider>
     </entry>
@@ -942,13 +908,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client-backend/jest.config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="14" column="6" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/client-backend/src/components/gql-query/GqlQuery.tsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="207">
@@ -979,40 +938,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client-backend/src/endpoints/create-html.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="52" selection-start-line="52" selection-end-line="52" />
-          <folding>
-            <element signature="e#0#31#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client-backend/__tests__/setup.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="3" column="26" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client-backend/src/endpoints/create-html.test.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-          <folding>
-            <element signature="e#0#31#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client-backend/global.d.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="3" column="21" lean-forward="true" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/client-backend/node_modules/@types/jest/index.d.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="191">
@@ -1020,6 +945,110 @@
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client-backend/global.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" column="37" selection-start-line="5" selection-start-column="37" selection-end-line="5" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client-backend/src/endpoints/create-html.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-893">
+          <caret line="11" column="38" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client-backend/src/endpoints/get-client-bundle.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-88">
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client-backend/src/endpoints/root.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="14" column="26" lean-forward="true" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client-backend/src/endpoints/root.test.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="8" selection-start-column="8" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client-backend/src/endpoints/assets.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-88">
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client-backend/src/endpoints/types.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" column="2" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client-backend/src/endpoints/assets.test.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" column="58" selection-start-line="4" selection-start-column="58" selection-end-line="4" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client-backend/src/endpoints/get-client-bundle.test.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="303">
+          <caret line="20" column="17" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client-backend/src/endpoints/create-html.test.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="9" column="39" selection-start-line="9" selection-start-column="39" selection-end-line="9" selection-end-column="39" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client-backend/__tests__/assetsTransformer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" column="53" selection-start-line="5" selection-start-column="53" selection-end-line="5" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client-backend/__tests__/setup.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="17" column="35" lean-forward="true" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client-backend/jest.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="50" selection-start-line="2" selection-start-column="50" selection-end-line="2" selection-end-column="50" />
         </state>
       </provider>
     </entry>

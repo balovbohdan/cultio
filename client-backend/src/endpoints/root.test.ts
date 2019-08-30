@@ -1,10 +1,8 @@
-import * as React from 'react';
+import {root} from '@endpoints';
 
-import {createHtml} from '@endpoints';
-
-describe('endpoints/create-html', () => {
+describe('endpoints/root', () =>{
     it('Should have valid endpoint data', () => {
-        const {method, condition, createListener} = createHtml;
+        const {method, condition, createListener} = root;
 
         expect(method).toBe('get');
         expect(method).toBeType('string');
@@ -13,7 +11,7 @@ describe('endpoints/create-html', () => {
     });
 
     it('Should create valid listener with "devMode" prop = true', () => {
-        const listener = createHtml.createListener({
+        const listener = root.createListener({
             devMode: true
         });
 
@@ -21,7 +19,7 @@ describe('endpoints/create-html', () => {
     });
 
     it('Should create valid listener with "devMode" prop = false', () => {
-        const listener = createHtml.createListener({
+        const listener = root.createListener({
             devMode: false
         });
 
