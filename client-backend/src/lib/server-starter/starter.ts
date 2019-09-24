@@ -1,3 +1,5 @@
+import * as Express from 'express';
+
 import create from './factory';
 
 type Props = {
@@ -5,7 +7,7 @@ type Props = {
     devMode:boolean;
 };
 
-export default ({port, devMode}:Props) => {
+export default ({port, devMode}:Props):Express => {
     const app = create({ devMode });
 
     app.listen(

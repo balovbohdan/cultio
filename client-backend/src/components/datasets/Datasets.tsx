@@ -19,7 +19,7 @@ export const Datasets = ({items}:T.Props) => {
 
 const Items = ({items}:T.ItemsProps) => {
     const c = items.map(({id, img, descr, title}) =>
-        <Item key={id} img={img} descr={descr} title={title}/>
+        <Item key={id} id={id} img={img} descr={descr} title={title}/>
     );
 
     return <>{c}</>;

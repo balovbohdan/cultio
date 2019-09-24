@@ -2,6 +2,7 @@ import * as React from 'react';
 import {RouteProps} from 'react-router';
 
 import {Home} from './home';
+import {Dataset} from './dataset';
 
 const Another = () => <h1>another</h1>;
 
@@ -20,10 +21,10 @@ export const routes:Item[] = [
         }
     },
     {
-        name: 'another',
+        name: 'dataset',
         meta: {
-            path: '/another',
-            component: Another
+            path: '/dataset',
+            component: Dataset
         }
     }
 ];

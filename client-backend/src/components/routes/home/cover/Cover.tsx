@@ -1,8 +1,9 @@
 import * as React from 'react';
 import {Box, Typography} from '@material-ui/core';
 
-import {useCss} from './style';
 import * as girlFarmer from '@img/girl-farmer.svg';
+
+import {useCss} from './style';
 
 export const Cover = () => {
     const css = useCss();

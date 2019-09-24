@@ -1,6 +1,6 @@
 module.exports = {
     collectCoverage: true,
-    collectCoverageFrom: ['<rootDir>/src/**/*.tsx?'],
+    collectCoverageFrom: ['<rootDir>/src/**/*.{ts,tsx,js,jsx}'],
 
     roots: ['./src'],
     testPathIgnorePatterns: ['node_modules'],
@@ -10,8 +10,11 @@ module.exports = {
     setupFilesAfterEnv: ['<rootDir>/__tests__/setupAfterEnv.js'],
 
     coveragePathIgnorePatterns: [
+        'index.js',
+        'index.ts',
         'node_modules',
-        '<rootDir>/src/server.ts'
+        '<rootDir>/src/server.ts',
+        '<rootDir>/src/lib/server-starter/starter.ts'
     ],
     moduleNameMapper: {
         '@root/?(.*)$': '<rootDir>/src/$1',

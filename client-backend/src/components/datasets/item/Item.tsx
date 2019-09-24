@@ -1,4 +1,5 @@
 import * as React from 'react';
+import {Link} from 'react-router-dom';
 
 import {
     Card,
@@ -8,22 +9,23 @@ import {
     CardActionArea
 } from '@material-ui/core';
 
-import {Props} from './types';
+import * as T from './types';
 import {useCss} from './style';
 
-export const Item = ({img, descr, title, onClick}:Props) => {
-    onClick = onClick || undefined;
-
+export const Item = ({id, img, descr, title}:T.Props) => {
     const css = useCss();
+    const url = createUrl(id);
 
     return (
-        <div onClick={onClick} className={css.root}>
-            <Card className={css.card}>
-                <CardActionArea>
-                    <Media css={css} img={img} title={title}/>
-                    <Content css={css} descr={descr} title={title}/>
-                </CardActionArea>
-            </Card>
+        <div className={css.root}>
+            <Link to={url}>
+                <Card className={css.card}>
+                    <CardActionArea>
+                        <Media css={css} img={img} title={title}/>
+                        <Content css={css} descr={descr} title={title}/>
+                    </CardActionArea>
+                </Card>
+            </Link>
         </div>
     );
 };
@@ -45,3 +47,5 @@ const Content = ({css, title, descr}) =>
             {descr}
         </Typography>
     </CardContent>;
+
+const createUrl = (id:number) => '/dataset?id=' + id;

@@ -25,4 +25,8 @@ describe('endpoints/get-client-bundle', () => {
 
         expect(listener).toBeType('function');
     });
+
+    it('Should resolve request', () => {
+        const
+    });
 });

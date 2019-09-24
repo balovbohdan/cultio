@@ -27,4 +27,24 @@ describe('endpoints/create-html', () => {
 
         expect(listener).toBeType('function');
     });
+
+    it('Should resolve request', async () => {
+        const end = jest.fn();
+        const header = jest.fn();
+        const sendStatus = jest.fn();
+        const send = jest.fn(() => ({ end }));
+
+        const req = { header };
+        const res = { send, sendStatus };
+
+        const listener = createHtml.createListener({
+            devMode: true
+        });
+
+        await listener(req, res);
+
+        expect(end).toHaveBeenCalledTimes(1);
+        expect(send).toHaveBeenCalledTimes(1);
+        expect(header).toHaveBeenCalledTimes(1);
+    });
 });

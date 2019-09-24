@@ -4,6 +4,7 @@ const cb = (theme:Theme) =>
     createStyles({
         root: {
             margin: '10px',
+            cursor: 'pointer',
             width: 'calc(33.33% - 20px)'
         },
         card: {
